@@ -1,0 +1,79 @@
+.h2 {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-family: var(--primary-font);
+	font-size: 7vw;
+	color: var(--text-color);
+	opacity: 10%;
+	margin-right: 0;
+	margin-top: 10vh;
+}
+.contactPage {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 19vw;
+}
+.contact {
+	margin-top: 10vh;
+	border-left: solid var(--thr-color);
+	border-top: solid var(--thr-color);
+	border-radius: 10px;
+	padding: 4em;
+	height: 50vh;
+}
+.h3 {
+	text-align: center;
+	font-size: 3.5em;
+	font-family: var(--thr-font);
+	color: var(--thr-color);
+	margin-bottom: 0.8em;
+	margin-top: 0;
+	animation: animate 2s ease-in-out infinite;
+}
+.anchor {
+	text-decoration: none;
+}
+
+.link {
+	height: 5em;
+}
+.imgFleche {
+	height: 10vh;
+	animation-name: moveUp;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	margin-bottom: 3em;
+}
+@keyframes moveUp {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+	}
+}
+.fleche {
+	margin: auto;
+	width: fit-content;
+}
+
+@keyframes animate {
+	20%,
+	24%,
+	55% {
+		color: white;
+		text-shadow: none;
+	}
+	0%,
+	19%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+		color: #f1c40f;
+		text-shadow: 0 0 2px #f1c40f, 0 0 1px #f1c40f, 0 0 1px #f1c40f, 0 0 1px
+			#f1c40f, 0 0 1px #f1c40f, 0 0 15px #f1c40f, 0 0 1px #f1c40f;
+	}
+}

@@ -1,0 +1,186 @@
+.h2 {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-family: var(--primary-font);
+	font-size: 8vw;
+	color: var(--text-color);
+	opacity: 10%;
+	margin-right: 0;
+	margin-top: 10vh;
+}
+.ProjectPage {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.project {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 61vw;
+	height: 150vh;
+	margin: auto;
+	gap: 1em;
+	margin-top: 15vh;
+	position: relative;
+
+	left: 10vw;
+	border-left: solid var(--thr-color);
+	border-top: solid var(--thr-color);
+	border-radius: 15px;
+	padding: 5em;
+}
+.anchor {
+	text-decoration: none;
+	color: var(--thr-color);
+}
+.imgLenclos {
+	width: 30vw;
+	border-radius: 15px;
+}
+.lenclos {
+	position: relative;
+}
+.titleEnclos {
+	padding: 0;
+	margin: 0;
+}
+.presentationEnclos {
+	width: 27.85vw;
+	height: 20vh;
+	background-color: var(--bg-color);
+	border-radius: 15px;
+	position: absolute;
+	bottom: 0.3vh;
+	display: none;
+	opacity: 90%;
+	font-family: var(--thr-font);
+	animation: fadein 1s;
+	line-height: 1.5em;
+	font-size: 1.3em;
+	padding: 1em;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.lenclos:hover .presentationEnclos {
+	display: block;
+}
+.videoMieu {
+	width: 30vw;
+	border-radius: 15px;
+}
+.unPeuMieu {
+	position: relative;
+}
+.presentationMieu {
+	width: 27.85vw;
+	height: 17vh;
+	background-color: var(--bg-color);
+	border-radius: 15px;
+	position: absolute;
+	bottom: 20vh;
+	display: none;
+	opacity: 90%;
+	font-family: var(--thr-font);
+	animation: fadein 1s;
+	line-height: 1.5em;
+	font-size: 1.3em;
+	padding: 1em;
+}
+
+.unPeuMieu:hover .presentationMieu {
+	display: block;
+}
+.allStarVids {
+	width: 30vw;
+	border-radius: 15px;
+}
+.allStar {
+	position: relative;
+}
+.presentationAllStar {
+	width: 27.85vw;
+	height: 20vh;
+	background-color: var(--bg-color);
+	border-radius: 15px;
+	position: absolute;
+	top: 16vh;
+	opacity: 90%;
+	font-family: var(--thr-font);
+	animation: fadein 1s;
+	line-height: 1.5em;
+	font-size: 1.3em;
+	padding: 1em;
+	padding-top: 0.1em;
+	display: none;
+}
+
+.allStar:hover .presentationAllStar {
+	display: block;
+}
+.boarderVids {
+	width: 30vw;
+	border-radius: 15px;
+}
+.boarder {
+	position: relative;
+	bottom: 21vh;
+}
+.presentationBoarder {
+	width: 27.85vw;
+	height: 35vh;
+	background-color: var(--bg-color);
+	border-radius: 15px;
+	position: absolute;
+	bottom: 0.3vh;
+	display: none;
+	opacity: 90%;
+	font-family: var(--thr-font);
+	animation: fadein 1s;
+	font-size: 1.3em;
+	padding: 1em;
+	padding-top: 0.1em;
+}
+
+.boarder:hover .presentationBoarder {
+	display: block;
+}
+
+.imgCarotaine {
+	width: 30vw;
+	height: 40vh;
+	border-radius: 15px;
+}
+.Carotaine {
+	position: relative;
+	bottom: 75.3vh;
+}
+.presentationCarotaine {
+	width: 29vw;
+	height: 18vh;
+	background-color: var(--bg-color);
+	border-radius: 15px;
+	position: absolute;
+	bottom: 0.3vh;
+	display: none;
+	opacity: 90%;
+	font-family: var(--thr-font);
+	animation: fadein 1s;
+	font-size: 1.3em;
+	padding: 0.5em;
+}
+
+.Carotaine :hover .presentationCarotaine {
+	display: block;
+}
+.titleCarotaine {
+	padding: 0;
+
+	margin: 0;
+}

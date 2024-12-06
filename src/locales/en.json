@@ -1,0 +1,57 @@
+{
+	"navBar": {
+		"home": "Home",
+		"about": "About me",
+		"project": "Project",
+		"skills": "skills",
+		"contact": "Contact",
+
+		"language": "English"
+	},
+	"header": {
+		"title": "WEB DEVELOPER"
+	},
+	"homePage": {
+		"about": "About me",
+		"project": "Project",
+		"skills": "Skills",
+		"contact": "Contact"
+	},
+	"aboutPage": {
+		"title": "About me.",
+		"devTitle": "Develop",
+		"dev": "Currently in the process of developing my skills in web technologies with the aim of combining my passion for technology and my skills acquired in my previous experiences. The customer's perspective is the primary driver of our activity, a quality website is not limited to an attractive design: it combines aesthetics, intuitive functionalities and fluid navigation. My ability to take on new, ever more complex challenges allows me to enrich the projects in which I invest every day in order to meet these requirements. In addition, my work force, my investment and my perseverance guarantee that every aspect of your projects will be taken with the greatest consideration.",
+		"manaTitle": "Managment",
+		"management": "My many years in team management have given me an ability to work in a team, to encourage, support and elevate the people around me. For me the role of the manager is not to motivate but to make people succeed; motivation is only the result. The best way to achieve your goals and ensure that your employees achieve theirs.",
+		"lectureTitle": "Reads",
+		"bookOne": "Clean code",
+		"descriptionOne": "",
+		"bookTwo": "The power of the present moment",
+		"descriptiontwo": "",
+		"bookThree": "Rich dad, poor dad",
+		"descriptionThree": "",
+		"playlistTitle": "Playlist",
+		"playlistOne": "Bon entendeur",
+		"playlistTwo": "Polo & Pan",
+		"playlistThree": "Chinese man",
+		"playlistFour": "Bob marley & the wailers",
+		"playlistFive": "The Doors",
+		"hobbieTitle": "Hobbies",
+		"sport": "Sport",
+		"games": "BoardGames",
+		"travel": "Travels"
+	},
+	"projectPage": {
+		"title": "PROJECT",
+		"titleEnclos": "L'Enclos",
+		"descEnclos": "Project carried out before I started my web dev professionnal education in HTML and CSS for a theater company of which I am the president. Site currently under reconstruction with React.JS",
+		"titleMieux": "Better than yesterday",
+		"descMieux": "Project carried out in 2 hours, after 15 days of professionnal education, as part of exercise following learning HTML/CSS",
+		"titleAllStar": "All Star Games",
+		"descAllStar": "Project completed in 4 hours, after 1 and a half months of professionnal education, as part of an exercise following learning react (props & states)",
+		"titleBoarder": "Boarder-Line",
+		"descBoarder": "Professional education project in a group of 4, carried out over a few weeks using the Scrum method. Project carried out after 2 months of training in react with API integration",
+		"titleCarotaine": "Carotaine",
+		"descCarotaine": "30h hackathon offered by Wild Code Shcool in groups of 4 on the theme of Apocalypse and Kindness, develop with React JS and API integration"
+	}
+}

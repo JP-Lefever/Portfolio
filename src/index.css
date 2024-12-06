@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "poppins";
+	src: url("./../public/font/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "fuf";
+	src: url("./../public/font/FUF_____.TTF");
+}
+
+@font-face {
+	font-family: "hind";
+	src: url("./../public/font/Hind-Regular.ttf");
+}
+
+:root {
+	--primary-font: "poppins";
+	--thr-font: "hind";
+	--fou-font: "fuf";
+	--text-color: white;
+	--bg-color: #242424;
+	--thr-color: #ffff00;
+
+	background-color: var(--bg-color);
+}

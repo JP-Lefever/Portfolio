@@ -1,0 +1,54 @@
+.list {
+	list-style: none;
+	border: solid var(--text-color);
+	width: 10vw;
+	text-align: center;
+	color: var(--bg-color);
+	font-family: var(--primary-font);
+	border-radius: 5px;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5em;
+	background: linear-gradient(
+			to bottom,
+			var(--text-color) 0%,
+			var(--text-color) 100%
+		)
+		no-repeat;
+	background-size: 100% 100%;
+	transition: background-size .7s;
+}
+.list:hover {
+	background-size: 100% 0%;
+	color: var(--text-color);
+}
+.skills {
+	width: 25vw;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	margin: 4vh auto;
+	justify-content: center;
+	position: relative;
+	left: 10vw;
+	border-bottom: solid var(--thr-color);
+	border-left: solid var(--thr-color);
+	padding: 4em;
+	border-radius: 10px;
+}
+.h2 {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-family: var(--primary-font);
+	font-size: 10vw;
+	color: var(--text-color);
+	opacity: 10%;
+	margin-right: 0;
+}
+.skillsSection {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}

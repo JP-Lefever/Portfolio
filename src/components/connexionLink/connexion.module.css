@@ -1,0 +1,22 @@
+.git {
+	width: 2.95vw;
+}
+.linkedin:hover,
+.twitter:hover,
+.git:hover {
+	transform: scale(1.1);
+}
+.linkedin {
+	width: 3vw;
+}
+.twitter {
+	width: 3vw;
+}
+.link {
+	margin: auto;
+	width: 20vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 4vh;
+}

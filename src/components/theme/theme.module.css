@@ -1,0 +1,13 @@
+.button {
+	color: var(--text-color);
+	background-color: var(--bg-color);
+	border-radius: 4px;
+	font-family: var(--primary-font);
+	width: 5vw;
+	list-style: none;
+	margin-left: 90vw;
+	margin-top: 1vh;
+}
+.button:hover {
+	color: var(--thr-color);
+}

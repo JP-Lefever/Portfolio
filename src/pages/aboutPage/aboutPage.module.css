@@ -1,0 +1,43 @@
+.about {
+	width: 40vw;
+	font-family: var(--thr-font);
+	margin-top: 8vh;
+	border-left: solid 1px var(--thr-color);
+	padding-left: 5em;
+}
+.h2About {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-family: var(--primary-font);
+	font-size: 9vw;
+	color: var(--text-color);
+	opacity: 10%;
+	margin-right: 0;
+	margin-top: 10vh;
+}
+.aboutPage {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 6vw;
+}
+.h2 {
+	font-family: var(--primary-font);
+	color: var(--text-color);
+	margin-bottom: 8vh;
+	font-size: 4em;
+}
+.h3 {
+	font-family: var(--primary-font);
+	color: var(--thr-color);
+}
+.h4 {
+	font-family: var(--thr-font);
+	color: var(--text-color);
+}
+.text {
+	font-family: var(--thr-font);
+	color: var(--text-color);
+}
+.catégory {
+	margin-bottom: 5vh;
+}
