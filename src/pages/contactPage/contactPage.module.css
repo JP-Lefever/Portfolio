@@ -29,6 +29,7 @@
 	margin-bottom: 0.8em;
 	margin-top: 0;
 	animation: animate 2s ease-in-out infinite;
+	text-transform: uppercase;
 }
 .anchor {
 	text-decoration: none;

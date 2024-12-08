@@ -59,4 +59,7 @@ export type TranslationType = {
 		titleCarotaine: string;
 		descCarotaine: string;
 	};
+	contact: {
+		cv: string;
+	};
 };

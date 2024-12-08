@@ -7,16 +7,21 @@ export default function ConnexionLink() {
 	return (
 		<>
 			<section className={style.link}>
-				<a target="blank" href="https://x.com/LefR_dev">
+				<a target="_blank" rel="noreferrer" href="https://x.com/LefR_dev">
 					<img className={style.twitter} src={twitter} alt="twitter" />
 				</a>
 				<a
-					target="blank"
+					target="_blank"
+					rel="noreferrer"
 					href="https://www.linkedin.com/in/jean-philippe-lefever/"
 				>
 					<img className={style.linkedin} src={linkedin} alt="linkedin" />
 				</a>
-				<a target="blank" href="https://github.com/JP-Lefever">
+				<a
+					target="_blank"
+					rel="noreferrer"
+					href="https://github.com/JP-Lefever"
+				>
 					<img className={style.git} src={git} alt="git" />
 				</a>
 			</section>

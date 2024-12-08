@@ -52,5 +52,8 @@
 		"descBoarder": "Projet de formation en groupe de 4, réalisé sur quelques semaines en méthode Scrum. Projet réalisé après 2 mois de formations en react JS avec intégration d'API",
 		"titleCarotaine": "Carotaine",
 		"descCarotaine": "Hackathon de 30h proposé par la Wild Code Shcool en groupe de 4 sur la thématique Apocalypse et Bienveillance, développé avec React JS et integration d'API"
+	},
+	"contact": {
+		"cv": "Télécharger CV"
 	}
 }

@@ -53,5 +53,8 @@
 		"descBoarder": "Professional education project in a group of 4, carried out over a few weeks using the Scrum method. Project carried out after 2 months of training in react with API integration",
 		"titleCarotaine": "Carotaine",
 		"descCarotaine": "30h hackathon offered by Wild Code Shcool in groups of 4 on the theme of Apocalypse and Kindness, develop with React JS and API integration"
+	},
+	"contact": {
+		"cv": "Download CV"
 	}
 }
