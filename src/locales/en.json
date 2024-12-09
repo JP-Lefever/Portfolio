@@ -3,7 +3,7 @@
 		"home": "Home",
 		"about": "About me",
 		"project": "Project",
-		"skills": "skills",
+		"skills": "Skills",
 		"contact": "Contact",
 
 		"language": "English"
@@ -43,7 +43,7 @@
 	},
 	"projectPage": {
 		"title": "PROJECT",
-		"titleEnclos": "L'Enclos",
+		"titleEnclos": "L'Enclos | Compagnie de théatre",
 		"descEnclos": "Project carried out before I started my web dev professionnal education in HTML and CSS for a theater company of which I am the president. Site currently under reconstruction with React.JS",
 		"titleMieux": "Better than yesterday",
 		"descMieux": "Project carried out in 2 hours, after 15 days of professionnal education, as part of exercise following learning HTML/CSS",

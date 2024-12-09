@@ -15,11 +15,10 @@
 }
 .contact {
 	margin-top: 10vh;
-	border-left: solid var(--thr-color);
-	border-top: solid var(--thr-color);
-	border-radius: 10px;
-	padding: 4em;
-	height: 50vh;
+	border-left: 1px solid var(--thr-color);
+
+	padding-left: 5em;
+	height: 70vh;
 }
 .h3 {
 	text-align: center;
@@ -30,6 +29,18 @@
 	margin-top: 0;
 	animation: animate 2s ease-in-out infinite;
 	text-transform: uppercase;
+}
+.h3Info {
+	font-size: 2.5em;
+	font-family: var(--thr-font);
+	color: var(--text-color);
+	text-align: center;
+}
+.h3Name {
+	font-size: 3.2em;
+	font-family: var(--primary-font);
+	color: var(--thr-color);
+	text-align: center;
 }
 .anchor {
 	text-decoration: none;

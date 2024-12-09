@@ -3,7 +3,7 @@
 	font-family: var(--thr-font);
 	margin-top: 8vh;
 	border-left: solid 1px var(--thr-color);
-	padding-left: 5em;
+	padding-left: 5vw;
 }
 .h2About {
 	writing-mode: vertical-rl;

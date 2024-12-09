@@ -45,8 +45,13 @@
 	54%,
 	56%,
 	100% {
-		color: #f1c40f;
-		text-shadow: 0 0 2px #f1c40f, 0 0 1px #f1c40f, 0 0 1px #f1c40f, 0 0 1px
-			#f1c40f, 0 0 1px #f1c40f, 0 0 15px #f1c40f, 0 0 1px #f1c40f;
+		color: var(--thr-color);
+		text-shadow:
+			0 0 2px var(--thr-color), 0 0 1px var(--thr-color), 0 0 1px var(
+				--thr-color
+			), 0 0 1px
+			var(--thr-color), 0 0 1px var(--thr-color), 0 0 15px var(--thr-color), 0 0 1px var(
+				--thr-color
+			);
 	}
 }

@@ -10,30 +10,38 @@ export default function ProjectPage() {
 	const { translations } = useTranslation();
 	return (
 		<>
-			<div className={style.ProjectPage}>
+			<div className={style.projectPage}>
 				<h2 className={style.h2}>PROJECT</h2>
 				<section className={style.project}>
 					<article className={style.lenclos}>
-						<a
-							className={style.anchor}
-							target="_blank"
-							rel="noreferrer"
-							href="https://jp-lefever.github.io/L-enclos_V1/l_histoire.html"
-						>
-							<img
-								className={style.imgLenclos}
-								src={lenclos}
-								alt="Site web compagnie l'enclos"
-							/>
-							<div className={style.presentationEnclos}>
-								<h2 className={style.titleEnclos}>
-									{translations.projectPage.titleEnclos}
-								</h2>
-								<p>{translations.projectPage.descEnclos}</p>
-							</div>
-						</a>
+						<div className={style.presentationEnclos}>
+							<h2 className={style.h2Lenclos}>
+								{translations.projectPage.titleEnclos}
+							</h2>
+							<p>{translations.projectPage.descEnclos}</p>
+						</div>
+						<div>
+							<a
+								className={style.anchor}
+								target="_blank"
+								rel="noreferrer"
+								href="https://jp-lefever.github.io/L-enclos_V1/l_histoire.html"
+							>
+								<img
+									className={style.imgLenclos}
+									src={lenclos}
+									alt="Site web compagnie l'enclos"
+								/>
+							</a>
+						</div>
 					</article>
 					<article className={style.unPeuMieu}>
+						<div className={style.presentationMieu}>
+							<h2 className={style.h2Mieu}>
+								{translations.projectPage.titleMieux}
+							</h2>
+							<p>{translations.projectPage.descMieux}</p>
+						</div>
 						<a
 							className={style.anchor}
 							target="_blank"
@@ -43,13 +51,15 @@ export default function ProjectPage() {
 							<video className={style.videoMieu} autoPlay muted loop>
 								<source src={unPeuMieu} type="video/mp4" />
 							</video>
-							<div className={style.presentationMieu}>
-								<h2>{translations.projectPage.titleMieux}</h2>
-								<p>{translations.projectPage.descMieux}</p>
-							</div>
 						</a>
 					</article>
 					<article className={style.allStar}>
+						<div className={style.presentationAllStar}>
+							<h2 className={style.h2AllStar}>
+								{translations.projectPage.titleAllStar}
+							</h2>
+							<p>{translations.projectPage.descAllStar}</p>
+						</div>
 						<a
 							className={style.anchor}
 							target="_blank"
@@ -59,13 +69,15 @@ export default function ProjectPage() {
 							<video className={style.allStarVids} autoPlay muted loop>
 								<source src={allStarGame} type="video/mp4" />
 							</video>
-							<div className={style.presentationAllStar}>
-								<h2>{translations.projectPage.titleAllStar}</h2>
-								<p>{translations.projectPage.descAllStar}</p>
-							</div>
 						</a>
 					</article>
 					<article className={style.boarder}>
+						<div className={style.presentationBoarder}>
+							<h2 className={style.h2Boarder}>
+								{translations.projectPage.titleBoarder}
+							</h2>
+							<p>{translations.projectPage.descBoarder}</p>
+						</div>
 						<a
 							className={style.anchor}
 							target="_blank"
@@ -75,13 +87,15 @@ export default function ProjectPage() {
 							<video className={style.boarderVids} autoPlay muted loop>
 								<source src={boarderline} type="video/mp4" />
 							</video>
-							<div className={style.presentationBoarder}>
-								<h2>{translations.projectPage.titleBoarder}</h2>
-								<p>{translations.projectPage.descBoarder}</p>
-							</div>
 						</a>
 					</article>
-					<article className={style.Carotaine}>
+					<article className={style.carotaine}>
+						<div className={style.presentationCarotaine}>
+							<h2 className={style.titleCarotaine}>
+								{translations.projectPage.titleCarotaine}
+							</h2>
+							<p>{translations.projectPage.descCarotaine}</p>
+						</div>
 						<a
 							className={style.anchor}
 							target="_blank"
@@ -93,12 +107,6 @@ export default function ProjectPage() {
 								src={carotaine}
 								alt="Site web Carotaine"
 							/>
-							<div className={style.presentationCarotaine}>
-								<h2 className={style.titleCarotaine}>
-									{translations.projectPage.titleCarotaine}
-								</h2>
-								<p>{translations.projectPage.descCarotaine}</p>
-							</div>
 						</a>
 					</article>
 				</section>

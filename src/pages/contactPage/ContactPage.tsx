@@ -10,7 +10,11 @@ export default function ContactPage() {
 		<>
 			<section className={style.contactPage}>
 				<h2 className={style.h2}>CONTACT</h2>
+
 				<div className={style.contact}>
+					<h2 className={style.h3Name}>LEFEVER JEAN-PHILIPPE</h2>
+					<h3 className={style.h3Info}>lefever.jp@hotmail.fr</h3>
+					<h3 className={style.h3Info}>07.81.96.64.96</h3>
 					<a
 						className={style.anchor}
 						target="_self"
@@ -19,13 +23,10 @@ export default function ContactPage() {
 						download={true}
 					>
 						<h3 className={style.h3}>{translations.contact.cv}</h3>
+						<div className={style.link}>
+							<ConnexionLink />
+						</div>
 					</a>
-					<div className={style.fleche}>
-						<img className={style.imgFleche} src={fleche} alt="CV" />
-					</div>
-					<div className={style.link}>
-						<ConnexionLink />
-					</div>
 				</div>
 			</section>
 		</>

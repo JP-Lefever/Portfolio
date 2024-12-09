@@ -33,8 +33,7 @@
 	justify-content: center;
 	position: relative;
 	left: 10vw;
-	border-bottom: solid var(--thr-color);
-	border-left: solid var(--thr-color);
+
 	padding: 4em;
 	border-radius: 10px;
 }
