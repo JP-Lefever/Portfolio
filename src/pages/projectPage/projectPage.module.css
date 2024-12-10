@@ -47,16 +47,6 @@
 	animation: smoothScale 2s ease-out;
 }
 
-@keyframes smoothScale {
-	0% {
-		transform: scale(0);
-		opacity: 0;
-	}
-	100% {
-		transform: scale(1);
-		opacity: 1;
-	}
-}
 .presentationEnclos {
 	width: 30vw;
 	font-family: var(--thr-font);
@@ -145,7 +135,7 @@
 /* Carotaine */
 .carotaine {
 	display: flex;
-
+	flex-direction: row-reverse;
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
@@ -166,4 +156,15 @@
 	width: 30vw;
 	font-family: var(--thr-font);
 	color: var(--text-color);
+}
+
+@keyframes smoothScale {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
 }

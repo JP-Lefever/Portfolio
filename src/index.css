@@ -20,6 +20,7 @@
 	--text-color: white;
 	--bg-color: #242424;
 	--thr-color: #ffff00;
+	--bg-opacity-color: #5a59591a;
 
 	background-color: var(--bg-color);
 }

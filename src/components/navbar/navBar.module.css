@@ -23,6 +23,9 @@
 
 	background-size: 0 100%;
 	transition: background-size .3s;
+	@media screen and (max-width: 375px) {
+		font-size: 0.8em;
+	}
 }
 .active {
 	color: var(--thr-color);
@@ -38,6 +41,9 @@
 		no-repeat;
 
 	background-size: 100% 100%;
+	@media screen and (max-width: 375px) {
+		font-size: 0.8em;
+	}
 }
 
 .link:hover {
@@ -54,6 +60,12 @@
 	display: flex;
 	gap: 3em;
 	margin-right: 5vw;
+	@media screen and (max-width: 375px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+		justify-content: center;
+	}
 }
 .portrait {
 	display: flex;
@@ -67,9 +79,63 @@
 	font-size: 2.5em;
 	letter-spacing: 2px;
 	opacity: 90%;
+	@media screen and (max-width: 375px) {
+		font-size: 0.5em;
+	}
 }
 .translate {
 	width: 1.8vw;
 	position: relative;
 	bottom: 5vh;
+}
+
+.responsiveMenu {
+	background-color: var(--h3-color);
+	position: relative;
+	display: flex;
+	border: none;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1em 1em;
+	border-radius: 15px;
+	display: none;
+	@media screen and (max-width: 375px) {
+		display: block;
+	}
+}
+
+.bar1 {
+	border-radius: 30px;
+	background-color: var(--text-color);
+	width: 8vw;
+	margin-bottom: 1em;
+
+	height: 0.2em;
+}
+
+.bar2 {
+	border-radius: 30px;
+	background-color: var(--text-color);
+	width: 8vw;
+	position: absolute;
+
+	height: 0.2em;
+}
+
+.bar3_h {
+	border-radius: 30px;
+	background-color: var(--text-color);
+	width: 8vw;
+
+	height: 0.2em;
+}
+
+.bar4 {
+	border-radius: 30px;
+	background-color: var(--text-color);
+	width: 8vw;
+	margin-top: 1em;
+
+	height: 0.2em;
 }
