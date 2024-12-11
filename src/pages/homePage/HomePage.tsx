@@ -20,7 +20,7 @@ export default function HomePage() {
 			<section className={style.background}>
 				<h2 className={style.h2}>HOME</h2>
 
-				<motion.article
+				<motion.div
 					className={style.navigation}
 					ref={ref}
 					initial={{ opacity: 0 }}
@@ -28,6 +28,7 @@ export default function HomePage() {
 					animate={isInview ? { opacity: 1 } : { opacity: 0 }}
 				>
 					<Header />
+
 					<article className={style.main}>
 						<NavLink className={style.link1} to={"/project"}>
 							{translations.homePage.project}
@@ -35,15 +36,15 @@ export default function HomePage() {
 						<NavLink className={style.link2} to={"/about"}>
 							{translations.homePage.about}
 						</NavLink>
-						<NavLink className={style.link3} to={"/skills"}>
+						<a className={style.link3} href="#skills">
 							{translations.homePage.skills}
-						</NavLink>
+						</a>
 						<NavLink className={style.link4} to={"/contact"}>
 							{translations.homePage.contact}
 						</NavLink>
 					</article>
 					<ConnexionLink />
-				</motion.article>
+				</motion.div>
 				<FadeAnimation>
 					<article className={style.presentationArticle}>
 						<img className={style.logo} src={logo} alt="lefever jp" />
@@ -55,6 +56,7 @@ export default function HomePage() {
 							Je suis développeur web full stack, développant les technologies
 							front-end comme ReactJS, HTML, CSS et back-end avec express et SQL
 						</p>
+
 						<p className={style.presentation1}>
 							N'hésitez pas à explorer mes projets et à me contacter pour
 							discuter de vos idées ou collaborations
@@ -62,14 +64,15 @@ export default function HomePage() {
 					</article>
 				</FadeAnimation>
 			</section>
+
 			<a className={style.linkSkills} href="#skills">
 				<img className={style.fleche} src={fleche} alt="fleche" />
 			</a>
+
 			<section className={style.skills}>
 				<h2 className={style.skillsH2} id="skills">
 					Skills
 				</h2>
-
 				<SkillsPage />
 			</section>
 		</>

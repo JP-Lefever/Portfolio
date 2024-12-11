@@ -1,5 +1,11 @@
 .git {
 	width: 2.95vw;
+	@media screen and (max-width: 760px) {
+		width: 10vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 10vw;
+	}
 }
 .linkedin:hover,
 .twitter:hover,
@@ -8,9 +14,21 @@
 }
 .linkedin {
 	width: 3vw;
+	@media screen and (max-width: 760px) {
+		width: 10vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 10vw;
+	}
 }
 .twitter {
 	width: 3vw;
+	@media screen and (max-width: 760px) {
+		width: 10vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 10vw;
+	}
 }
 .link {
 	margin: auto;
@@ -19,4 +37,10 @@
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 4vh;
+	@media screen and (max-width: 760px) {
+		width: 75vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 75vw;
+	}
 }

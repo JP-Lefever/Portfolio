@@ -1,7 +1,7 @@
 import ConnexionLink from "../../components/connexionLink/ConnexionLink";
 import style from "./contactPage.module.css";
 import cvJp from "../../../public/CV Jean-Philippe LEFEVER Développeur.pdf";
-import fleche from "../../assets/images/fleche-vers-le-haut.png";
+
 import { useTranslation } from "../../contexts/LangContext";
 
 export default function ContactPage() {

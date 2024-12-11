@@ -9,6 +9,12 @@
 	opacity: 10%;
 	margin-right: 0;
 	margin-top: 10vh;
+	@media screen and (max-width: 760px) {
+		display: none;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		display: none;
+	}
 }
 .anchor {
 	text-decoration: none;
@@ -22,6 +28,16 @@
 .project {
 	border-left: 1px solid var(--thr-color);
 	padding-left: 5vw;
+	@media screen and (max-width: 760px) {
+		padding-left: 6vw;
+		position: relative;
+		right: 1.5em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		padding-left: 6vw;
+		position: relative;
+		right: 1.5em;
+	}
 }
 
 /* L'enclos  */
@@ -35,22 +51,55 @@
 	margin-bottom: 10vh;
 	border-bottom: 1px solid var(--thr-color);
 	padding-bottom: 10vh;
+	@media screen and (max-width: 760px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
 }
 .h2Lenclos {
 	font-family: var(--primary-font);
 	color: var(--thr-color);
 	width: 30vw;
+	@media screen and (max-width: 760px) {
+		font-size: 1em;
+		width: 80vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		font-size: 1.8em;
+		width: 80vw;
+	}
 }
 .imgLenclos {
 	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
+	@media screen and (max-width: 760px) {
+		width: 75vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 75vw;
+	}
 }
 
 .presentationEnclos {
 	width: 30vw;
 	font-family: var(--thr-font);
 	color: var(--text-color);
+	@media screen and (max-width: 760px) {
+		width: 80vw;
+		text-align: center;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 80vw;
+		text-align: center;
+		font-size: 1.6em;
+	}
 }
 
 /* Un peu mieu */
@@ -62,22 +111,55 @@
 	margin-bottom: 10vh;
 	border-bottom: 1px solid var(--thr-color);
 	padding-bottom: 10vh;
+	@media screen and (max-width: 760px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
 }
 .videoMieu {
 	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
+	@media screen and (max-width: 760px) {
+		width: 75vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 75vw;
+	}
 }
 
 .h2Mieu {
 	font-family: var(--primary-font);
 	color: var(--thr-color);
 	width: 30vw;
+	@media screen and (max-width: 760px) {
+		font-size: 1em;
+		width: 80vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		font-size: 1.8em;
+		width: 80vw;
+	}
 }
 .presentationMieu {
 	width: 30vw;
 	font-family: var(--thr-font);
 	color: var(--text-color);
+	@media screen and (max-width: 760px) {
+		width: 80vw;
+		text-align: center;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 80vw;
+		text-align: center;
+		font-size: 1.6em;
+	}
 }
 
 /* ALL STAR GAMES */
@@ -89,21 +171,54 @@
 	margin-bottom: 10vh;
 	border-bottom: 1px solid var(--thr-color);
 	padding-bottom: 10vh;
+	@media screen and (max-width: 760px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
 }
 .allStarVids {
 	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
+	@media screen and (max-width: 760px) {
+		width: 75vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 75vw;
+	}
 }
 .h2AllStar {
 	font-family: var(--primary-font);
 	color: var(--thr-color);
 	width: 30vw;
+	@media screen and (max-width: 760px) {
+		font-size: 1em;
+		width: 80vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		font-size: 1.8em;
+		width: 80vw;
+	}
 }
 .presentationAllStar {
 	width: 30vw;
 	font-family: var(--thr-font);
 	color: var(--text-color);
+	@media screen and (max-width: 760px) {
+		width: 80vw;
+		text-align: center;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 80vw;
+		text-align: center;
+		font-size: 1.6em;
+	}
 }
 
 /* BOADER GAMES */
@@ -115,21 +230,54 @@
 	margin-bottom: 10vh;
 	border-bottom: 1px solid var(--thr-color);
 	padding-bottom: 10vh;
+	@media screen and (max-width: 760px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
 }
 .boarderVids {
 	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
+	@media screen and (max-width: 760px) {
+		width: 75vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 75vw;
+	}
 }
 .h2Boarder {
 	font-family: var(--primary-font);
 	color: var(--thr-color);
 	width: 30vw;
+	@media screen and (max-width: 760px) {
+		font-size: 1em;
+		width: 80vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		font-size: 1.8em;
+		width: 80vw;
+	}
 }
 .presentationBoarder {
 	width: 30vw;
 	font-family: var(--thr-font);
 	color: var(--text-color);
+	@media screen and (max-width: 760px) {
+		width: 80vw;
+		text-align: center;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 80vw;
+		text-align: center;
+		font-size: 1.6em;
+	}
 }
 
 /* Carotaine */
@@ -141,21 +289,54 @@
 	margin-bottom: 10vh;
 	border-bottom: 1px solid var(--thr-color);
 	padding-bottom: 10vh;
+	@media screen and (max-width: 760px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+	}
 }
 .imgCarotaine {
 	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
+	@media screen and (max-width: 760px) {
+		width: 75vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 75vw;
+	}
 }
 .titleCarotaine {
 	font-family: var(--primary-font);
 	color: var(--thr-color);
 	width: 30vw;
+	@media screen and (max-width: 760px) {
+		font-size: 1em;
+		width: 80vw;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		font-size: 1.8em;
+		width: 80vw;
+	}
 }
 .presentationCarotaine {
 	width: 30vw;
 	font-family: var(--thr-font);
 	color: var(--text-color);
+	@media screen and (max-width: 760px) {
+		width: 80vw;
+		text-align: center;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 80vw;
+		text-align: center;
+		font-size: 1.6em;
+	}
 }
 
 @keyframes smoothScale {

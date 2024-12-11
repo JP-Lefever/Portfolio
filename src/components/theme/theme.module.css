@@ -7,6 +7,19 @@
 	list-style: none;
 	margin-left: 90vw;
 	margin-top: 1vh;
+	@media screen and (max-width: 760px) {
+		width: 10vw;
+		margin-left: 70vw;
+		margin-bottom: 0.5em;
+		width: fit-content;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		width: 10vw;
+		margin-left: 85vw;
+		margin-bottom: 0.5em;
+		width: fit-content;
+		font-size: 1.4em;
+	}
 }
 .button:hover {
 	color: var(--thr-color);
