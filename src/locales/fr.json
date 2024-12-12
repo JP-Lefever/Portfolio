@@ -11,10 +11,14 @@
 		"title": "DEVELOPPEUR WEB"
 	},
 	"homePage": {
+		"presentationTitle": "Bienvenu sur mon portefolio",
+		"presentation1": "Je suis développeur web full stack, développant avec les technologies front-end comme ReactJS, HTML, CSS et back-end avec express et SQL.",
+		"presentation2": "N'hésitez pas à explorer mes projets et à me contacter pour discuter de vos idées ou collaborations",
 		"about": "A propos",
 		"project": "Projets",
 		"skills": "Compétences",
-		"contact": "Contact"
+		"contact": "Contact",
+		"mySkills": "Mes compétences..."
 	},
 	"aboutPage": {
 		"title": "A propos de moi.",
@@ -41,6 +45,7 @@
 		"travel": "Voyages"
 	},
 	"projectPage": {
+		"mes_projets": "Mes projets...",
 		"title": "PROJET",
 		"titleEnclos": "L'Enclos | Compagnie de théatre",
 		"descEnclos": "Projet réalisé avant le début de ma formation en HTML et CSS pour une compagnie de théâtre dont je suis le président. Site actuellement en reconstruction avec React.JS",

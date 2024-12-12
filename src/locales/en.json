@@ -12,10 +12,14 @@
 		"title": "WEB DEVELOPER"
 	},
 	"homePage": {
+		"presentationTitle": "Welcome to my portfolio",
+		"presentation1": "I am a full stack web developer, developing with front-end technologies like ReactJS, HTML, CSS and back-end with express and SQL.",
+		"presentation2": "Feel free to explore my projects and contact me to discuss your ideas or collaborations",
 		"about": "About me",
 		"project": "Project",
 		"skills": "Skills",
-		"contact": "Contact"
+		"contact": "Contact",
+		"mySkills": "My Skills..."
 	},
 	"aboutPage": {
 		"title": "About me.",
@@ -42,6 +46,7 @@
 		"travel": "Travels"
 	},
 	"projectPage": {
+		"mes_projets": "My projetct...",
 		"title": "PROJECT",
 		"titleEnclos": "L'Enclos | Compagnie de théatre",
 		"descEnclos": "Project carried out before I started my web dev professionnal education in HTML and CSS for a theater company of which I am the president. Site currently under reconstruction with React.JS",

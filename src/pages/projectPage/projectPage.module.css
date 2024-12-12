@@ -16,6 +16,18 @@
 		display: none;
 	}
 }
+.h2Project {
+	font-family: var(--primary-font);
+	color: var(--text-color);
+	margin-bottom: 12vh;
+	font-size: 4em;
+	@media screen and (max-width: 760px) {
+		font-size: 2em;
+	}
+	@media screen and (min-width: 761px) and (max-width: 1048px) {
+		font-size: 4.5em;
+	}
+}
 .anchor {
 	text-decoration: none;
 	color: var(--thr-color);

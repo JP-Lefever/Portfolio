@@ -17,10 +17,14 @@ export type TranslationType = {
 		title: string;
 	};
 	homePage: {
+		presentationTitle: string;
+		presentation1: string;
+		presentation2: string;
 		about: string;
 		project: string;
 		skills: string;
 		contact: string;
+		mySkills: string;
 	};
 	aboutPage: {
 		title: string;
@@ -47,6 +51,7 @@ export type TranslationType = {
 		travel: string;
 	};
 	projectPage: {
+		mes_projets: string;
 		title: string;
 		titleEnclos: string;
 		descEnclos: string;

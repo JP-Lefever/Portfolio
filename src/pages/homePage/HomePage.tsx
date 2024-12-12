@@ -5,7 +5,7 @@ import Header from "../../components/header/Header";
 import ConnexionLink from "../../components/connexionLink/ConnexionLink";
 import SkillsPage from "../skillsPage/SkillsPage";
 import logo from "../../assets/images/logo.jpg";
-import fleche from "../../assets/images/fleche_bas.png";
+
 import { motion, useInView } from "framer-motion";
 import { FadeAnimation } from "../../components/scrollAnimation/ScrollAnimation";
 import { useRef } from "react";
@@ -50,29 +50,20 @@ export default function HomePage() {
 						<img className={style.logo} src={logo} alt="lefever jp" />
 
 						<h2 className={style.presentationTitle}>
-							Bienvenu sur mon portefolio
+							{translations.homePage.presentationTitle}
 						</h2>
 						<p className={style.presentation}>
-							Je suis développeur web full stack, développant les technologies
-							front-end comme ReactJS, HTML, CSS et back-end avec express et SQL
+							{translations.homePage.presentation1}
 						</p>
 
 						<p className={style.presentation1}>
-							N'hésitez pas à explorer mes projets et à me contacter pour
-							discuter de vos idées ou collaborations
+							{translations.homePage.presentation2}
 						</p>
 					</article>
 				</FadeAnimation>
 			</section>
 
-			<a className={style.linkSkills} href="#skills">
-				<img className={style.fleche} src={fleche} alt="fleche" />
-			</a>
-
 			<section className={style.skills}>
-				<h2 className={style.skillsH2} id="skills">
-					Skills
-				</h2>
 				<SkillsPage />
 			</section>
 		</>

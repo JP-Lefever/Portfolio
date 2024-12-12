@@ -76,6 +76,7 @@
 	margin-right: 5vw;
 	@media screen and (max-width: 760px) {
 		display: flex;
+		width: 40vw;
 		flex-direction: column;
 		gap: 1em;
 		padding: 1em 0.5em;
@@ -90,6 +91,7 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
+		width: 40vw;
 		gap: 1em;
 		padding: 1em 1.2em;
 		z-index: 1;
