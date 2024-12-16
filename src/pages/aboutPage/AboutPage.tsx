@@ -1,6 +1,6 @@
 import { useTranslation } from "../../contexts/LangContext";
 import style from "./aboutPage.module.css";
-import { ScrollAnimation } from "../../components/scrollAnimation/ScrollAnimation";
+import { Scroll } from "../../components/scrollAnimation/ScrollAnimation";
 
 export default function AboutPage() {
 	const { translations } = useTranslation();
@@ -11,15 +11,15 @@ export default function AboutPage() {
 				<h2 className={style.h2About}>ABOUT</h2>
 				<article className={style.about}>
 					<h2 className={style.h2}>{translations.aboutPage.title}</h2>
-					<ScrollAnimation>
+					<Scroll>
 						<article className={style.catégory}>
 							<h3 className={style.h3}>{translations.aboutPage.devTitle}</h3>
 							<p className={style.text}>{translations.aboutPage.dev}</p>
 							<h3 className={style.h3}>{translations.aboutPage.manaTitle}</h3>
 							<p className={style.text}>{translations.aboutPage.management}</p>
 						</article>
-					</ScrollAnimation>
-					<ScrollAnimation>
+					</Scroll>
+					<Scroll>
 						<article className={style.catégory}>
 							<h3 className={style.h3}>
 								{translations.aboutPage.lectureTitle}
@@ -28,8 +28,8 @@ export default function AboutPage() {
 							<p className={style.h4}>{translations.aboutPage.bookTwo}</p>
 							<p className={style.h4}>{translations.aboutPage.bookThree}</p>
 						</article>
-					</ScrollAnimation>
-					<ScrollAnimation>
+					</Scroll>
+					<Scroll>
 						<article className={style.catégory}>
 							<h3 className={style.h3}>
 								{translations.aboutPage.playlistTitle}
@@ -40,15 +40,15 @@ export default function AboutPage() {
 							<p className={style.h4}>{translations.aboutPage.playlistFour}</p>
 							<p className={style.h4}>{translations.aboutPage.playlistFive}</p>
 						</article>
-					</ScrollAnimation>
-					<ScrollAnimation>
+					</Scroll>
+					<Scroll>
 						<article className={style.catégory}>
 							<h3 className={style.h3}>{translations.aboutPage.hobbieTitle}</h3>
 							<p className={style.h4}>{translations.aboutPage.sport}</p>
 							<p className={style.h4}>{translations.aboutPage.games}</p>
 							<p className={style.h4}>{translations.aboutPage.travel}</p>
 						</article>
-					</ScrollAnimation>
+					</Scroll>
 				</article>
 			</section>
 		</>

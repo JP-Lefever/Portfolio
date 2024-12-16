@@ -6,14 +6,11 @@ import ConnexionLink from "../../components/connexionLink/ConnexionLink";
 import SkillsPage from "../skillsPage/SkillsPage";
 import logo from "../../assets/images/logo.jpg";
 
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import { FadeAnimation } from "../../components/scrollAnimation/ScrollAnimation";
-import { useRef } from "react";
 
 export default function HomePage() {
 	const { translations } = useTranslation();
-	const ref = useRef(null);
-	const isInview = useInView(ref, { once: true });
 
 	return (
 		<>
@@ -22,10 +19,9 @@ export default function HomePage() {
 
 				<motion.div
 					className={style.navigation}
-					ref={ref}
 					initial={{ opacity: 0 }}
 					transition={{ duration: 2, delay: 2, ease: "easeInOut" }}
-					animate={isInview ? { opacity: 1 } : { opacity: 0 }}
+					animate={{ opacity: 1 }}
 				>
 					<Header />
 

@@ -1,0 +1,11 @@
+.footer {
+	color: var(--text-color);
+	font-family: var(--primary-font);
+	width: 60vw;
+	margin: auto;
+	text-align: center;
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

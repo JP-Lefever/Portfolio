@@ -4,6 +4,7 @@ import "./index.css";
 import { LangProvider } from "./contexts/LangContext";
 import Theme from "./components/theme/Theme";
 import { Outlet } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<main>
 					<Outlet />
 				</main>
+				<Footer />
 			</LangProvider>
 		</>
 	);
