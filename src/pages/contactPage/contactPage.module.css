@@ -17,7 +17,7 @@
 .contactPage {
 	display: flex;
 	flex-direction: row-reverse;
-	gap: 19vw;
+	gap: 18.1vw;
 }
 .contact {
 	margin-top: 10vh;
@@ -73,7 +73,7 @@
 	height: 5em;
 	@media screen and (max-width: 760px) {
 		width: 90vw;
-		padding-left: 1em;
+		padding-left: 0em;
 	}
 }
 

@@ -72,6 +72,7 @@
 	opacity: 10%;
 	margin-left: 0;
 	padding: 0;
+	margin-top: 20vh;
 	@media screen and (max-width: 760px) {
 		display: none;
 	}
@@ -88,13 +89,20 @@
 	align-items: center;
 	position: relative;
 	top: 8vh;
+	right: 13vw;
 	@media screen and (max-width: 760px) {
 		width: 90vw;
 		margin: auto;
+		position: relative;
+
+		right: 0vw;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 90vw;
 		margin: auto;
+		position: relative;
+
+		right: 0vw;
 	}
 }
 .skillsH2 {
@@ -111,5 +119,10 @@
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		font-size: 4.5em;
+		padding-left: 3vw;
 	}
+}
+.skillsPage {
+	display: flex;
+	flex-direction: row;
 }
