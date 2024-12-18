@@ -9,7 +9,7 @@ export default function NavBar() {
 	const [burgerMenu, setBurgerMenu] = useState(false);
 
 	const handleClick = () => setBurgerMenu(!burgerMenu);
-	const handleClickResponsive = () => setBurgerMenu(!burgerMenu);
+
 	return (
 		<>
 			<nav className={style.nav}>
