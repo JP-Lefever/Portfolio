@@ -45,6 +45,7 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/"}
+										onClick={handleClick}
 									>
 										{translations.navBar.home}
 									</NavLink>
@@ -59,6 +60,7 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/about"}
+										onClick={handleClick}
 									>
 										{translations.navBar.about}
 									</NavLink>
@@ -73,6 +75,7 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/project"}
+										onClick={handleClick}
 									>
 										{translations.navBar.project}
 									</NavLink>
@@ -88,6 +91,7 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/contact"}
+										onClick={handleClick}
 									>
 										{translations.navBar.contact}
 									</NavLink>

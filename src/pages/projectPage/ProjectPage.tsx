@@ -31,11 +31,13 @@ export default function ProjectPage() {
 								rel="noreferrer"
 								href="https://carotaine-itbc5rczf-lefever-jean-philippes-projects.vercel.app/"
 							>
-								<img
-									className={style.imgCarotaine}
-									src={carotaine}
-									alt="Site web Carotaine"
-								/>
+								<div className={style.hover}>
+									<img
+										className={style.imgCarotaine}
+										src={carotaine}
+										alt="Site web Carotaine"
+									/>
+								</div>
 							</a>
 						</article>
 					</ScrollAnimation>
