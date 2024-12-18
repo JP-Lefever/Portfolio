@@ -7,7 +7,9 @@ import { useState } from "react";
 export default function NavBar() {
 	const { translations } = useTranslation();
 	const [burgerMenu, setBurgerMenu] = useState(false);
+
 	const handleClick = () => setBurgerMenu(!burgerMenu);
+	const handleClickResponsive = () => setBurgerMenu(!burgerMenu);
 	return (
 		<>
 			<nav className={style.nav}>
@@ -45,7 +47,6 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/"}
-										onClick={handleClick}
 									>
 										{translations.navBar.home}
 									</NavLink>
@@ -60,7 +61,6 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/about"}
-										onClick={handleClick}
 									>
 										{translations.navBar.about}
 									</NavLink>
@@ -75,7 +75,6 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/project"}
-										onClick={handleClick}
 									>
 										{translations.navBar.project}
 									</NavLink>
@@ -91,7 +90,6 @@ export default function NavBar() {
 													: style.link
 										}
 										to={"/contact"}
-										onClick={handleClick}
 									>
 										{translations.navBar.contact}
 									</NavLink>
