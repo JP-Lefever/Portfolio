@@ -4,7 +4,9 @@ import unPeuMieu from "../../assets/video/un_peu_mieu.mp4";
 import allStarGame from "../../assets/video/all_star_game.mp4";
 import { useTranslation } from "../../contexts/LangContext";
 import boarderline from "../../assets/video/Boarder_Line.mp4";
-import carotaine from "../../assets/images/Carotaine.png";
+import carotaine from "../../assets/images/carotaine.png";
+import eshop from "../../assets/images/eShop.png";
+import todo from "../../assets/images/todo.png";
 import { ScrollAnimation } from "../../components/scrollAnimation/ScrollAnimation";
 
 export default function ProjectPage() {
@@ -62,6 +64,28 @@ export default function ProjectPage() {
 						</article>
 					</ScrollAnimation>
 					<ScrollAnimation>
+						<article className={style.eShop}>
+							<div className={style.presentationShop}>
+								<h2 className={style.h2Shop}>
+									{translations.projectPage.titleShop}
+								</h2>
+								<p>{translations.projectPage.descShop}</p>
+							</div>
+							<a
+								className={style.anchor}
+								target="_blank"
+								rel="noreferrer"
+								href="https://e-shop-client-eight.vercel.app"
+							>
+								<img
+									className={style.imgShop}
+									src={eshop}
+									alt="Eshop website"
+								/>
+							</a>
+						</article>
+					</ScrollAnimation>
+					<ScrollAnimation>
 						<article className={style.allStar}>
 							<div className={style.presentationAllStar}>
 								<h2 className={style.h2AllStar}>
@@ -78,6 +102,24 @@ export default function ProjectPage() {
 								<video className={style.allStarVids} autoPlay muted loop>
 									<source src={allStarGame} type="video/mp4" />
 								</video>
+							</a>
+						</article>
+					</ScrollAnimation>
+					<ScrollAnimation>
+						<article className={style.todo}>
+							<div className={style.presentationTodo}>
+								<h2 className={style.h2Todo}>
+									{translations.projectPage.titleTodo}
+								</h2>
+								<p>{translations.projectPage.descTodo}</p>
+							</div>
+							<a
+								className={style.anchor}
+								target="_blank"
+								rel="noreferrer"
+								href="https://jp-lefever.github.io/todo/"
+							>
+								<img className={style.imgShop} src={todo} alt="Eshop website" />
 							</a>
 						</article>
 					</ScrollAnimation>

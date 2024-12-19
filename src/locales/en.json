@@ -55,9 +55,13 @@
 		"titleAllStar": "All Star Games",
 		"descAllStar": "Project completed in 4 hours, after 1 and a half months of professionnal education, as part of an exercise following learning react (props & states)",
 		"titleBoarder": "Boarder-Line",
-		"descBoarder": "Professional education project in a group of 4, carried out over a few weeks using the Scrum method. Project carried out after 2 months of training in react with API integration",
+		"descBoarder": "Professional education project in a group of 4, carried out over a few weeks using the Scrum method. Project carried out after 2 months of training in react, TS and CSS modul with API integration",
 		"titleCarotaine": "Carotaine",
-		"descCarotaine": "30h hackathon offered by Wild Code Shcool in groups of 4 on the theme of Apocalypse and Kindness, develop with React JS and API integration"
+		"descCarotaine": "30h hackathon offered by Wild Code Shcool in groups of 4 on the theme of Apocalypse and Kindness, develop with React JS and API integration",
+		"titleShop": "Carotaine",
+		"descShop": "Project carried out as part of training, following learning to use fetch. Project carried out in React JS, TS, Tailwind CSS and API integration",
+		"titleTodo": "Carotaine",
+		"descTodo": "First group project carried out as part of the group training of 3. Project carried out in HTML, CSS and JSDOM"
 	},
 	"contact": {
 		"cv": "Download CV"

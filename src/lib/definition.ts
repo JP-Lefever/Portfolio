@@ -63,6 +63,10 @@ export type TranslationType = {
 		descBoarder: string;
 		titleCarotaine: string;
 		descCarotaine: string;
+		titleShop: string;
+		descShop: string;
+		titleTodo: string;
+		descTodo: string;
 	};
 	contact: {
 		cv: string;
