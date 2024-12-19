@@ -4,7 +4,7 @@ import unPeuMieu from "../../assets/video/un_peu_mieu.mp4";
 import allStarGame from "../../assets/video/all_star_game.mp4";
 import { useTranslation } from "../../contexts/LangContext";
 import boarderline from "../../assets/video/Boarder_Line.mp4";
-import carotaine from "../../assets/images/carotaine.png";
+import carotain from "../../assets/images/carotaine.png";
 import eshop from "../../assets/images/eShop.png";
 import todo from "../../assets/images/todo.png";
 import { ScrollAnimation } from "../../components/scrollAnimation/ScrollAnimation";
@@ -36,7 +36,7 @@ export default function ProjectPage() {
 								<div className={style.hover}>
 									<img
 										className={style.imgCarotaine}
-										src={carotaine}
+										src={carotain}
 										alt="Site web Carotaine"
 									/>
 								</div>
