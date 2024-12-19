@@ -29,7 +29,7 @@ export default function ProjectPage() {
 								className={style.anchor}
 								target="_blank"
 								rel="noreferrer"
-								href="carotaine.vercel.app"
+								href="https://carotaine.vercel.app"
 							>
 								<div className={style.hover}>
 									<img
@@ -53,7 +53,7 @@ export default function ProjectPage() {
 								className={style.anchor}
 								target="_blank"
 								rel="noreferrer"
-								href="border-line-client.vercel.app"
+								href="https://border-line-client.vercel.app"
 							>
 								<video className={style.boarderVids} autoPlay muted loop>
 									<source src={boarderline} type="video/mp4" />
