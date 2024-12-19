@@ -26,20 +26,12 @@ export const ScrollAnimation = ({ children }: ScrollAnimationType) => {
 };
 
 export const FadeAnimation = ({ children }: ScrollAnimationType) => {
-	const ref = useRef(null);
-	const isInView = useInView(ref, { once: true, amount: 0.3 });
-
 	const variants = {
 		hidden: { opacity: 1, x: 650 },
 		visible: { opacity: 1, x: 0, transition: { duration: 4 } },
 	};
 	return (
-		<motion.div
-			ref={ref}
-			initial="hidden"
-			animate={isInView ? "visible" : "hidden"}
-			variants={variants}
-		>
+		<motion.div initial="hidden" animate={"visible"} variants={variants}>
 			{children}
 		</motion.div>
 	);

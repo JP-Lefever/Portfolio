@@ -51,6 +51,8 @@
 	@media screen and (max-width: 760px) {
 		width: 80vw;
 		height: 30vh;
+
+		overflow-x: hidden; /* Désactive le scroll horizontal */
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 80vw;
