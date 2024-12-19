@@ -33,6 +33,9 @@
 		position: relative;
 		right: 1em;
 	}
+	@media screen and (min-width: 1049px) and (max-width: 1800px) {
+		font-size: 1.2em;
+	}
 }
 .list:hover {
 	background-size: 100% 0%;
@@ -116,10 +119,16 @@
 
 	@media screen and (max-width: 760px) {
 		font-size: 2em;
+		padding-left: 5vw;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		font-size: 4.5em;
 		padding-left: 3vw;
+	}
+	@media screen and (min-width: 1049px) and (max-width: 1800px) {
+		padding-left: 3vw;
+		width: 50vw;
+		font-size: 3em;
 	}
 }
 .skillsPage {
