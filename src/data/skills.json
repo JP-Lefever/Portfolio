@@ -1,7 +1,8 @@
 [
 	{
 		"id": 1,
-		"name": "HTML5"
+		"name": "HTML5",
+		"image": "../assets/images/html"
 	},
 	{
 		"id": 2,
