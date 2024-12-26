@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, type ReactNode } from "react";
 import en from "../locales/en.json";
 import fr from "../locales/fr.json";
-import type { LanguageType, TranslationType } from "../lib/definition";
+import type { LanguageType, TranslationType } from "..//assets/lib/definition";
 
 const translations: { en: TranslationType; fr: TranslationType } = { en, fr };
 

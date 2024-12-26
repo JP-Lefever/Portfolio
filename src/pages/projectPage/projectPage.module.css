@@ -61,7 +61,7 @@
 	align-items: center;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -91,6 +91,7 @@
 	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
+
 	@media screen and (max-width: 760px) {
 		width: 75vw;
 	}
@@ -99,6 +100,9 @@
 	}
 }
 
+.imgLenclos:hover {
+	transform: scale(1.05);
+}
 .presentationEnclos {
 	width: 30vw;
 	font-family: var(--thr-font);
@@ -122,7 +126,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -145,6 +149,9 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 75vw;
 	}
+}
+.videoMieu:hover {
+	transform: scale(1.05);
 }
 
 .h2Mieu {
@@ -182,7 +189,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -205,6 +212,9 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 75vw;
 	}
+}
+.allStarVids:hover {
+	transform: scale(1.05);
 }
 .h2AllStar {
 	font-family: var(--primary-font);
@@ -241,7 +251,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -264,6 +274,9 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 75vw;
 	}
+}
+.boarderVids:hover {
+	transform: scale(1.05);
 }
 .h2Boarder {
 	font-family: var(--primary-font);
@@ -300,7 +313,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -313,6 +326,7 @@
 		gap: 1em;
 	}
 }
+
 .imgCarotaine {
 	width: 30vw;
 	border-radius: 15px;
@@ -324,6 +338,9 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 75vw;
 	}
+}
+.imgCarotaine:hover {
+	transform: scale(1.05);
 }
 .titleCarotaine {
 	font-family: var(--primary-font);
@@ -361,7 +378,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -385,6 +402,9 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 75vw;
 	}
+}
+.imgShop:hover {
+	transform: scale(1.05);
 }
 .h2Shop {
 	font-family: var(--primary-font);
@@ -422,7 +442,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -446,6 +466,9 @@
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		width: 75vw;
 	}
+}
+.imgTodo:hover {
+	transform: scale(1.05);
 }
 .h2Todo {
 	font-family: var(--primary-font);
