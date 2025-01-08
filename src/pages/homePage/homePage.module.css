@@ -156,7 +156,8 @@
 	width: 20vw;
 	margin-top: 10vh;
 	text-align: center;
-	padding-right: 4vw;
+	padding-right: 2vw;
+	padding-left: 1vw;
 	margin-left: 2vw;
 	padding-bottom: 0;
 	border-right: 1px solid var(--thr-color);
@@ -241,4 +242,41 @@
 .flecheSkills {
 	position: relative;
 	left: 1.4em;
+}
+
+.container {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.text {
+	transition: opacity 0.3s ease;
+	opacity: 1;
+}
+
+.img {
+	width: 4em;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.link1:hover .text,
+.link2:hover .text,
+.link3:hover .text,
+.link4:hover .text {
+	opacity: 0; /* Le texte disparaît */
+}
+
+/* Au survol, l'image devient visible */
+.link1:hover .img,
+.link2:hover .img,
+.link3:hover .img,
+.link4:hover .img {
+	opacity: 1; /* L'image devient visible */
 }

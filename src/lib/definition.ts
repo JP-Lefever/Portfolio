@@ -67,6 +67,7 @@ export type TranslationType = {
 		descShop: string;
 		titleTodo: string;
 		descTodo: string;
+		tech: string[];
 	};
 	contact: {
 		cv: string;

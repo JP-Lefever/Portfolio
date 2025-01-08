@@ -4,7 +4,11 @@ import { useTranslation } from "../../contexts/LangContext";
 import Header from "../../components/header/Header";
 import ConnexionLink from "../../components/connexionLink/ConnexionLink";
 import SkillsPage from "../skillsPage/SkillsPage";
-import logo from "../../assets/images/logo.jpg";
+import photo from "../../assets/images/profile-pic.png";
+import skills from "../../assets/images/skill.png";
+import project from "../../assets/images/projet.png";
+import about from "../../assets/images/aboutme.png";
+import contact from "../../assets/images/contactme.png";
 
 import { motion } from "framer-motion";
 import { FadeAnimation } from "../../components/scrollAnimation/ScrollAnimation";
@@ -27,23 +31,51 @@ export default function HomePage() {
 
 					<article className={style.main}>
 						<NavLink className={style.link1} to={"/project"}>
-							{translations.homePage.project}
+							<div className={style.container}>
+								<p className={style.text}>{translations.homePage.project}</p>
+								<img
+									className={`${style.img} ${style.hidden}`}
+									src={project}
+									alt=""
+								/>
+							</div>
 						</NavLink>
 						<NavLink className={style.link2} to={"/about"}>
-							{translations.homePage.about}
+							<div className={style.container}>
+								<p className={style.text}>{translations.homePage.about}</p>
+								<img
+									className={`${style.img} ${style.hidden}`}
+									src={about}
+									alt=""
+								/>
+							</div>
 						</NavLink>
 						<a className={style.link3} href="#skills">
-							{translations.homePage.skills}
+							<div className={style.container}>
+								<p className={style.text}>{translations.homePage.skills}</p>
+								<img
+									className={`${style.img} ${style.hidden}`}
+									src={skills}
+									alt=""
+								/>
+							</div>
 						</a>
 						<NavLink className={style.link4} to={"/contact"}>
-							{translations.homePage.contact}
+							<div className={style.container}>
+								<p className={style.text}>{translations.homePage.contact}</p>
+								<img
+									className={`${style.img} ${style.hidden}`}
+									src={contact}
+									alt=""
+								/>
+							</div>
 						</NavLink>
 					</article>
 					<ConnexionLink />
 				</motion.div>
 				<FadeAnimation>
 					<article className={style.presentationArticle}>
-						<img className={style.logo} src={logo} alt="lefever jp" />
+						<img className={style.logo} src={photo} alt="lefever jp" />
 
 						<h2 className={style.presentationTitle}>
 							{translations.homePage.presentationTitle}

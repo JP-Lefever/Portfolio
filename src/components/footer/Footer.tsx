@@ -7,6 +7,15 @@ export default function Footer() {
 				<div>
 					<p>&copy; 2024</p>
 					<p>Lefever Jean-Philippe | Tous Droits Réservés</p>
+					<p>
+						Image from{" "}
+						<a
+							className={style.link}
+							href="https://www.pngwing.com/en/free-png-nyfxp/download"
+						>
+							Png Wing
+						</a>
+					</p>
 				</div>
 			</footer>
 		</>

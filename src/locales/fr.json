@@ -13,7 +13,7 @@
 	"homePage": {
 		"presentationTitle": "Bienvenu sur mon portefolio",
 		"presentation1": "Je suis développeur web full stack, développant avec les technologies front-end comme ReactJS, HTML, CSS et back-end avec express et SQL.",
-		"presentation2": "N'hésitez pas à explorer mes projets et à me contacter pour discuter de vos idées ou collaborations",
+		"presentation2": "Je suis activement à la recherche d'une alternance ou tout autre collaboration, n'hésitez pas à explorer mes projets et à me contacter pour toute demande.",
 		"about": "A propos",
 		"project": "Projets",
 		"skills": "Compétences",
@@ -48,19 +48,32 @@
 		"mes_projets": "Mes projets...",
 		"title": "PROJET",
 		"titleEnclos": "L'Enclos | Compagnie de théatre",
-		"descEnclos": "Projet réalisé avant le début de ma formation en HTML et CSS pour une compagnie de théâtre dont je suis le président. Site actuellement en reconstruction avec React.JS",
+		"descEnclos": "Projet réalisé avant le début de ma formation pour une compagnie de théâtre dont je suis le président. Site actuellement en reconstruction avec React",
 		"titleMieux": "Un peu meilleur chaque jour",
 		"descMieux": "Projet réalisé en 2h, après 15 jours de formations, dans le cadre d'un exercice suite à l'apprentissage du HTML/CSS",
 		"titleAllStar": "All Star Games",
-		"descAllStar": "Projet réalisé en 4h, après 1mois et demi de formation, dans le cadre d'un exercice suite à l'apprentissage de react (props & states). Projet réalisé en React JS, TS",
+		"descAllStar": "Projet réalisé en 4h, après 1mois et demi de formation, dans le cadre d'un exercice suite à l'apprentissage de react (props & states).",
 		"titleBoarder": "Boarder-Line",
-		"descBoarder": "Projet de formation en groupe de 4, réalisé sur quelques semaines en méthode Scrum. Projet réalisé après 2 mois de formations avec react JS, TS, module CSS et intégration d'API",
+		"descBoarder": "Projet de formation en groupe de 4, réalisé sur quelques semaines en méthode Scrum. Projet réalisé après 2 mois de formations.",
 		"titleCarotaine": "Carotaine",
-		"descCarotaine": "Hackathon de 30h proposé par la Wild Code Shcool en groupe de 4 sur la thématique Apocalypse et Bienveillance, développé avec React JS, TS et integration d'API",
+		"descCarotaine": "Hackathon de 30h proposé par la Wild Code Shcool en groupe de 4 sur la thématique Apocalypse et Bienveillance.",
 		"titleShop": "Eshop",
-		"descShop": "Projet réalisé dans le cadre de la formation, suite à l'apprentissage de l'utilisation de fetch. Projet réalisé avec React JS, TS, Tailwind CSS et intégration d'API",
+		"descShop": "Projet réalisé dans le cadre de la formation, suite à l'apprentissage de l'utilisation de fetch. ",
 		"titleTodo": "Todo List",
-		"descTodo": "Premier projet de groupe réalisé dans le cadre de la formation en groupe de 3. Projet réalisé en HTML, CSS et JSDOM"
+		"descTodo": "Premier projet de groupe réalisé dans le cadre de la formation en groupe de 3. ",
+		"tech": [
+			"HTML",
+			"CSS",
+			"JSDOM",
+			"JavaScript",
+			"TypeScript",
+			"Tailwind CSS",
+			"API",
+			"React",
+			"Express",
+			"SQL",
+			"module CSS"
+		]
 	},
 	"contact": {
 		"cv": "Télécharger CV"

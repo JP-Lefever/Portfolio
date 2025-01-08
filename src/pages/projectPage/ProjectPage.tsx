@@ -26,6 +26,20 @@ export default function ProjectPage() {
 									{translations.projectPage.titleCarotaine}
 								</h2>
 								<p>{translations.projectPage.descCarotaine}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[7]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[4]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[10]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[6]}
+									</p>
+								</aside>
 							</div>
 							<a
 								className={style.anchor}
@@ -50,6 +64,20 @@ export default function ProjectPage() {
 									{translations.projectPage.titleBoarder}
 								</h2>
 								<p>{translations.projectPage.descBoarder}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[7]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[4]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[10]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[6]}
+									</p>
+								</aside>
 							</div>
 							<a
 								className={style.anchor}
@@ -70,6 +98,20 @@ export default function ProjectPage() {
 									{translations.projectPage.titleShop}
 								</h2>
 								<p>{translations.projectPage.descShop}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[7]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[4]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[5]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[6]}
+									</p>
+								</aside>
 							</div>
 							<a
 								className={style.anchor}
@@ -92,6 +134,17 @@ export default function ProjectPage() {
 									{translations.projectPage.titleAllStar}
 								</h2>
 								<p>{translations.projectPage.descAllStar}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[7]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[4]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[10]}
+									</p>
+								</aside>
 							</div>
 							<a
 								className={style.anchor}
@@ -112,6 +165,18 @@ export default function ProjectPage() {
 									{translations.projectPage.titleTodo}
 								</h2>
 								<p>{translations.projectPage.descTodo}</p>
+
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[0]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[1]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[2]}
+									</p>
+								</aside>
 							</div>
 							<a
 								className={style.anchor}
@@ -130,6 +195,14 @@ export default function ProjectPage() {
 									{translations.projectPage.titleMieux}
 								</h2>
 								<p>{translations.projectPage.descMieux}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[0]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[1]}
+									</p>
+								</aside>
 							</div>
 							<a
 								className={style.anchor}
@@ -150,6 +223,14 @@ export default function ProjectPage() {
 									{translations.projectPage.titleEnclos}
 								</h2>
 								<p>{translations.projectPage.descEnclos}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[0]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[1]}
+									</p>
+								</aside>
 							</div>
 
 							<div>

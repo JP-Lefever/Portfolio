@@ -16,6 +16,19 @@
 		display: none;
 	}
 }
+.techs {
+	display: flex;
+	gap: 3em;
+}
+.tech {
+	border: solid 1px;
+	background-color: var(--thr-color);
+	color: var(--bg-color);
+	font-weight: bold;
+	padding: 0.1em 1em;
+	border-radius: 20px;
+	font-family: var(--thr-font);
+}
 .h2Project {
 	font-family: var(--primary-font);
 	color: var(--text-color);
@@ -61,7 +74,7 @@
 	align-items: center;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -122,7 +135,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -182,7 +195,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -241,7 +254,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -300,7 +313,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -361,7 +374,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;
@@ -422,7 +435,7 @@
 	gap: 3em;
 	align-items: center;
 	margin-bottom: 10vh;
-	border-bottom: 1px solid var(--thr-color);
+
 	padding-bottom: 10vh;
 	@media screen and (max-width: 760px) {
 		display: flex;

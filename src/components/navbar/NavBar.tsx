@@ -1,6 +1,6 @@
 import style from "./navBar.module.css";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/images/logo.jpg";
+
 import { useTranslation } from "../../contexts/LangContext";
 import { useState } from "react";
 
@@ -14,9 +14,6 @@ export default function NavBar() {
 		<>
 			<nav className={style.nav}>
 				<section className={style.portrait}>
-					<figure className={style.figure}>
-						<img className={style.logo} src={logo} alt="portrait" />
-					</figure>
 					<h2 className={style.h2}>
 						Lefever <br /> Jean-Philippe
 					</h2>

@@ -14,7 +14,7 @@
 	"homePage": {
 		"presentationTitle": "Welcome to my portfolio",
 		"presentation1": "I am a full stack web developer, developing with front-end technologies like ReactJS, HTML, CSS and back-end with express and SQL.",
-		"presentation2": "Feel free to explore my projects and contact me to discuss your ideas or collaborations",
+		"presentation2": "I am actively looking for a work-study program or any other collaboration, do not hesitate to explore my projects and contact me for any requests.",
 		"about": "About me",
 		"project": "Project",
 		"skills": "Skills",
@@ -49,19 +49,32 @@
 		"mes_projets": "My projetct...",
 		"title": "PROJECT",
 		"titleEnclos": "L'Enclos | Compagnie de théatre",
-		"descEnclos": "Project carried out before I started my web dev professionnal education in HTML and CSS for a theater company of which I am the president. Site currently under reconstruction with React.JS",
+		"descEnclos": "Project carried out before I started my web dev professionnal education for a theater company of which I am the president. Site currently under reconstruction with React",
 		"titleMieux": "Better than yesterday",
 		"descMieux": "Project carried out in 2 hours, after 15 days of professionnal education, as part of exercise following learning HTML/CSS",
 		"titleAllStar": "All Star Games",
 		"descAllStar": "Project completed in 4 hours, after 1 and a half months of professionnal education, as part of an exercise following learning react (props & states)",
 		"titleBoarder": "Boarder-Line",
-		"descBoarder": "Professional education project in a group of 4, carried out over a few weeks using the Scrum method. Project carried out after 2 months of training in react, TS and CSS modul with API integration",
+		"descBoarder": "Professional education project in a group of 4, carried out over a few weeks using the Scrum method. Project carried out after 2 months of training.",
 		"titleCarotaine": "Carotaine",
-		"descCarotaine": "30h hackathon offered by Wild Code Shcool in groups of 4 on the theme of Apocalypse and Kindness, develop with React JS and API integration",
+		"descCarotaine": "30h hackathon offered by Wild Code Shcool in groups of 4 on the theme of Apocalypse and Kindness.",
 		"titleShop": "Carotaine",
-		"descShop": "Project carried out as part of training, following learning to use fetch. Project carried out in React JS, TS, Tailwind CSS and API integration",
+		"descShop": "Project carried out as part of training, following learning to use fetch.",
 		"titleTodo": "Carotaine",
-		"descTodo": "First group project carried out as part of the group training of 3. Project carried out in HTML, CSS and JSDOM"
+		"descTodo": "First group project carried out as part of the group training of 3.",
+		"tech": [
+			"HTML",
+			"CSS",
+			"JSDOM",
+			"JavaScript",
+			"TypeScript",
+			"Tailwind CSS",
+			"API",
+			"React",
+			"Express",
+			"SQL",
+			"module CSS"
+		]
 	},
 	"contact": {
 		"cv": "Download CV"
