@@ -1,5 +1,5 @@
 import style from "./skillsPage.module.css";
-import skills from "../../data/skills.json";
+import skills from "../../assets/data/skills.json";
 import { motion } from "framer-motion";
 import { useTranslation } from "../../contexts/LangContext";
 import css from "../../assets/images/css.png";
