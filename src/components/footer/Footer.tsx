@@ -11,7 +11,9 @@ export default function Footer() {
 						Image from{" "}
 						<a
 							className={style.link}
-							href="https://www.pngwing.com/en/free-png-nyfxp/download"
+							target="_blank"
+							rel="noreferrer"
+							href="https://www.pngwing.com"
 						>
 							Png Wing
 						</a>
