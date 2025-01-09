@@ -1,16 +1,16 @@
 import style from "./theme.module.css";
 import { useTranslation } from "../../contexts/LangContext";
-import french from "../../assets/images/french_flag.png";
-import english from "../../assets/images/united-kingdom-flag-button-round-icon-256.png";
+
+import { Languages } from "lucide-react";
 
 export default function Theme() {
 	const { language, toggleLanguage } = useTranslation();
 	return (
 		<button className={style.button} type="button" onClick={toggleLanguage}>
 			{language === "fr" ? (
-				<img className={style.french} src={french} alt="frenche" />
+				<Languages size={32} color="white" />
 			) : (
-				<img className={style.english} src={english} alt="frenche" />
+				<Languages size={32} color="yellow" />
 			)}
 		</button>
 	);
