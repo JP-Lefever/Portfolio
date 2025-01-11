@@ -107,13 +107,13 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
-
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
-
+		align-items: flex-start;
 		gap: 1em;
 	}
 }
@@ -174,11 +174,13 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 }
@@ -238,11 +240,13 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 }
@@ -300,10 +304,12 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
+		align-items: flex-start;
 		flex-direction: column;
 		gap: 1em;
 	}
@@ -362,11 +368,13 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 }
@@ -427,11 +435,13 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 }
@@ -491,11 +501,13 @@
 	@media screen and (max-width: 760px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 	@media screen and (min-width: 761px) and (max-width: 1048px) {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 1em;
 	}
 }
