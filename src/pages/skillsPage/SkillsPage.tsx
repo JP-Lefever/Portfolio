@@ -16,6 +16,17 @@ export default function SkillsPage() {
 	const { translations } = useTranslation();
 
 	const tech = [html, css, js, react, ts, tailwind, express, mysql, figma];
+	const altTech = [
+		"html",
+		"css",
+		"js",
+		"react",
+		"ts",
+		"tailwind",
+		"express",
+		"mySql",
+		"figmal",
+	];
 	return (
 		<>
 			<div className={style.skillsPage}>
@@ -38,7 +49,7 @@ export default function SkillsPage() {
 									<img
 										className={`${style.tech} ${style.hidden}`}
 										src={tech[i]}
-										alt=""
+										alt={altTech[i]}
 									/>
 								</div>
 							</motion.li>

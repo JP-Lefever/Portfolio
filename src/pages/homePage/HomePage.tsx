@@ -36,7 +36,7 @@ export default function HomePage() {
 								<img
 									className={`${style.img} ${style.hidden}`}
 									src={project}
-									alt=""
+									alt="Lien vers mes projets"
 								/>
 							</div>
 						</NavLink>
@@ -46,7 +46,7 @@ export default function HomePage() {
 								<img
 									className={`${style.img} ${style.hidden}`}
 									src={about}
-									alt=""
+									alt="Lien vers mon A propos "
 								/>
 							</div>
 						</NavLink>
@@ -56,7 +56,7 @@ export default function HomePage() {
 								<img
 									className={`${style.img} ${style.hidden}`}
 									src={skills}
-									alt=""
+									alt="Lien vers mes skills"
 								/>
 							</div>
 						</a>
@@ -66,7 +66,7 @@ export default function HomePage() {
 								<img
 									className={`${style.img} ${style.hidden}`}
 									src={contact}
-									alt=""
+									alt="lien pour me contacter"
 								/>
 							</div>
 						</NavLink>

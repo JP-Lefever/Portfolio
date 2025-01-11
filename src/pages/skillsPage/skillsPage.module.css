@@ -155,6 +155,10 @@
 	transform: translate(-50%, -50%);
 	opacity: 0;
 	transition: opacity 0.3s ease;
+	@media screen and (max-width: 760px) {
+		width: fit-content;
+		height: 2em;
+	}
 }
 
 .list:hover .text {

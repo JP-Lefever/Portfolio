@@ -5,7 +5,7 @@ export default function Header() {
 	return (
 		<>
 			<header className={style.header}>
-				<h2 className={style.h2}>{translations.header.title}</h2>
+				<h1 className={style.h2}>{translations.header.title}</h1>
 			</header>
 		</>
 	);
