@@ -64,14 +64,14 @@
 	color: var(--text-color);
 	text-align: center;
 	@media screen and (max-width: 760px) {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 }
 .h3Name {
 	font-size: 3.2em;
 	font-family: var(--primary-font);
 	color: var(--text-color);
-	text-align: left;
+	text-align: center;
 	@media screen and (max-width: 760px) {
 		font-size: 1.5em;
 	}

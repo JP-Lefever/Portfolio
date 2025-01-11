@@ -12,7 +12,7 @@ export default function ContactPage() {
 				<h2 className={style.h2}>CONTACT</h2>
 
 				<div className={style.contact}>
-					<h2 className={style.h3Name}>LEFEVER JEAN-PHILIPPE</h2>
+					<h3 className={style.h3Name}>LEFEVER JEAN-PHILIPPE</h3>
 					<h3 className={style.h3Info}>lefever.jp@hotmail.fr</h3>
 					<h3 className={style.h3Info}>07.81.96.64.96</h3>
 					<a
