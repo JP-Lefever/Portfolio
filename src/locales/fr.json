@@ -61,6 +61,10 @@
 		"descShop": "Projet réalisé dans le cadre de la formation, suite à l'apprentissage de l'utilisation de fetch. ",
 		"titleTodo": "Todo List",
 		"descTodo": "Premier projet de groupe réalisé dans le cadre de la formation en groupe de 3. ",
+		"titleGeocode": "Geocode",
+		"descGeocode": "Projet de fin de formation, réalisé en groupe de 3. Geocode est une application de borne de recharge electrique, permettant de geolocaliser l'utilisateur et les bornes, et de réserver un créneau de recharge",
+		"titleGlamping": "Glamping Spot",
+		"descGlamping": "Glamping Spot est un site pour hotellerie de plein air, permettant d'afficher depuis la page principale les différents Glamping ainsi que quelques informations. Des informations supplémentaires sont disponibles en cliquant sur le Glamping. L'application offre un côté back-end permettant à l'administrateur d'ajouter un type d'habitat, d'emplacement, d'infrastructure ou même un Glamping complet. Ce projet a été réalisé en 3 jours lors du dernier checkpoint de la formation.",
 		"tech": [
 			"HTML",
 			"CSS",
@@ -72,7 +76,7 @@
 			"React",
 			"Express",
 			"SQL",
-			"module CSS"
+			"Modules CSS"
 		]
 	},
 	"contact": {

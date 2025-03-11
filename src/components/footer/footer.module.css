@@ -1,14 +1,14 @@
 .footer {
-	color: var(--text-color);
-	font-family: var(--primary-font);
-	width: 60vw;
-	margin: auto;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .link {
-	text-decoration: none;
-	color: var(--thr-color);
+  text-decoration: none;
+  color: var(--thr-color);
 }

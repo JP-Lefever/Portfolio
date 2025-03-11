@@ -46,7 +46,7 @@
 		"travel": "Travels"
 	},
 	"projectPage": {
-		"mes_projets": "My projetct...",
+		"mes_projets": "My project...",
 		"title": "PROJECT",
 		"titleEnclos": "L'Enclos | Compagnie de théatre",
 		"descEnclos": "Project carried out before I started my web dev professionnal education for a theater company of which I am the president. Site currently under reconstruction with React",
@@ -62,6 +62,10 @@
 		"descShop": "Project carried out as part of training, following learning to use fetch.",
 		"titleTodo": "Carotaine",
 		"descTodo": "First group project carried out as part of the group training of 3.",
+		"titleGeocode": "Geocode",
+		"descGeocode": "End of training project, carried out in groups of 3. Geocode is an electric charging station application, allowing the user and the stations to be geolocated, and a charging slot to be reserved.",
+		"titleGlamping": "Glamping Spot",
+		"descGlamping": "Glamping Spot is a site for outdoor hotels, allowing to display from the main page the different Glampings as well as some information. Additional information is available by clicking on the Glamping. The application offers a back-end side allowing the administrator to add a type of habitat, location, infrastructure or even a complete Glamping. This project was completed in 3 days during the last checkpoint of the training.",
 		"tech": [
 			"HTML",
 			"CSS",
@@ -73,7 +77,7 @@
 			"React",
 			"Express",
 			"SQL",
-			"module CSS"
+			"Modules CSS"
 		]
 	},
 	"contact": {

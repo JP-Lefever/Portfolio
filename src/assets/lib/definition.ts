@@ -67,6 +67,10 @@ export type TranslationType = {
 		descShop: string;
 		titleTodo: string;
 		descTodo: string;
+		titleGeocode: string;
+		descGeocode: string;
+		titleGlamping: string;
+		descGlamping: string;
 		tech: string[];
 	};
 	contact: {

@@ -1,170 +1,170 @@
 .list {
-	list-style: none;
-	border: solid var(--text-color);
-	width: 10vw;
-	text-align: center;
-	color: var(--bg-color);
-	font-family: var(--primary-font);
-	border-radius: 5px;
-	height: 10vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 1.5em;
-	background: linear-gradient(
-			to bottom,
-			var(--text-color) 0%,
-			var(--text-color) 100%
-		)
-		no-repeat;
-	background-size: 100% 100%;
-	transition: background-size .7s;
-	@media screen and (max-width: 760px) {
-		width: 30vw;
-		height: 5vh;
-		font-size: 1em;
-		position: relative;
-		right: 1em;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: 30vw;
-		height: 5vh;
-		font-size: 1em;
-		position: relative;
-		right: 1em;
-	}
-	@media screen and (min-width: 1049px) and (max-width: 1800px) {
-		font-size: 1.2em;
-	}
+  list-style: none;
+  border: solid var(--text-color);
+  width: 10vw;
+  text-align: center;
+  color: var(--bg-color);
+  font-family: var(--primary-font);
+  border-radius: 5px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  background: linear-gradient(
+      to bottom,
+      var(--text-color) 0%,
+      var(--text-color) 100%
+    )
+    no-repeat;
+  background-size: 100% 100%;
+  transition: background-size .7s;
+  @media screen and (max-width: 760px) {
+    width: 30vw;
+    height: 5vh;
+    font-size: 1em;
+    position: relative;
+    right: 1em;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: 30vw;
+    height: 5vh;
+    font-size: 1em;
+    position: relative;
+    right: 1em;
+  }
+  @media screen and (min-width: 1049px) and (max-width: 1800px) {
+    font-size: 1.2em;
+  }
 }
 .list:hover {
-	background-size: 100% 0%;
-	color: var(--text-color);
+  background-size: 100% 0%;
+  color: var(--text-color);
 }
 .skills {
-	width: 25vw;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1em;
-	margin: 4vh auto;
-	justify-content: center;
+  width: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 4vh auto;
+  justify-content: center;
 
-	padding-top: 4vh;
-	@media screen and (max-width: 760px) {
-		width: fit-content;
-		position: relative;
-		left: 0.1vw;
+  padding-top: 4vh;
+  @media screen and (max-width: 760px) {
+    width: fit-content;
+    position: relative;
+    left: 0.1vw;
 
-		margin: auto;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: fit-content;
-		position: relative;
-		right: 0.1vw;
-		padding-left: 2vw;
-		margin: auto;
-	}
+    margin: auto;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: fit-content;
+    position: relative;
+    right: 0.1vw;
+    padding-left: 2vw;
+    margin: auto;
+  }
 }
 
 .h2 {
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	font-family: var(--primary-font);
-	font-size: 10vw;
-	color: var(--text-color);
-	opacity: 10%;
-	margin-left: 0;
-	padding: 0;
-	margin-top: 20vh;
-	@media screen and (max-width: 760px) {
-		display: none;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		display: none;
-	}
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--primary-font);
+  font-size: 10vw;
+  color: var(--text-color);
+  opacity: 10%;
+  margin-left: 0;
+  padding: 0;
+  margin-top: 20vh;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    display: none;
+  }
 }
 .skillsSection {
-	display: flex;
-	flex-direction: column;
-	border-left: 1px solid var(--thr-color);
-	width: 40vw;
-	margin: auto;
-	align-items: center;
-	position: relative;
-	top: 8vh;
-	right: 13vw;
-	@media screen and (max-width: 760px) {
-		width: 90vw;
-		margin: auto;
-		position: relative;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--thr-color);
+  width: 40vw;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  top: 8vh;
+  right: 13vw;
+  @media screen and (max-width: 760px) {
+    width: 90vw;
+    margin: auto;
+    position: relative;
 
-		right: 0vw;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: 90vw;
-		margin: auto;
-		position: relative;
+    right: 0vw;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: 90vw;
+    margin: auto;
+    position: relative;
 
-		right: 0vw;
-	}
+    right: 0vw;
+  }
 }
 .skillsH2 {
-	font-family: var(--primary-font);
-	color: var(--text-color);
-	font-size: 4em;
-	width: fit-content;
-	margin: auto;
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-size: 4em;
+  width: fit-content;
+  margin: auto;
 
-	padding-top: 3vh;
+  padding-top: 3vh;
 
-	@media screen and (max-width: 760px) {
-		font-size: 2em;
-		padding-left: 5vw;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		font-size: 4.5em;
-		padding-left: 3vw;
-	}
-	@media screen and (min-width: 1049px) and (max-width: 1800px) {
-		padding-left: 3vw;
-		width: 50vw;
-		font-size: 3em;
-	}
+  @media screen and (max-width: 760px) {
+    font-size: 2em;
+    padding-left: 5vw;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    font-size: 4.5em;
+    padding-left: 3vw;
+  }
+  @media screen and (min-width: 1049px) and (max-width: 1800px) {
+    padding-left: 3vw;
+    width: 50vw;
+    font-size: 3em;
+  }
 }
 .skillsPage {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .container {
-	position: relative;
-	display: inline-block;
-	text-align: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
 .text {
-	transition: opacity 0.3s ease;
-	opacity: 1;
+  transition: opacity 0.3s ease;
+  opacity: 1;
 }
 
 .tech {
-	width: fit-content;
-	height: 3em;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0;
-	transition: opacity 0.3s ease;
-	@media screen and (max-width: 760px) {
-		width: fit-content;
-		height: 2em;
-	}
+  width: fit-content;
+  height: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  @media screen and (max-width: 760px) {
+    width: fit-content;
+    height: 2em;
+  }
 }
 
 .list:hover .text {
-	opacity: 0;
+  opacity: 0;
 }
 
 .list:hover .tech {
-	opacity: 1;
+  opacity: 1;
 }
