@@ -643,6 +643,7 @@
 	}
 }
 .glampingVids {
+	width: 30vw;
 	border-radius: 15px;
 	animation: smoothScale 2s ease-out;
 	@media screen and (max-width: 760px) {

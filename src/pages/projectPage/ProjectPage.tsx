@@ -6,6 +6,7 @@ import boarderline from "../../assets/video/Boarder_Line.mp4";
 import allStarGame from "../../assets/video/all_star_game.mp4";
 import unPeuMieu from "../../assets/video/un_peu_mieu.mp4";
 import geocode from "../../assets/video/geocode.mp4";
+import glamping from "../../assets/video/glamping.mp4";
 import { ScrollAnimation } from "../../components/scrollAnimation/ScrollAnimation";
 import { useTranslation } from "../../contexts/LangContext";
 import style from "./projectPage.module.css";
@@ -52,11 +53,11 @@ export default function ProjectPage() {
 								className={style.anchor}
 								target="_blank"
 								rel="noreferrer"
-								href="https://github.com/WildCodeSchool-2024-09/JS-RemoteFR-Vert-CrewCodeIle-GeoCode-P3/tree/dev"
+								href="https://github.com/JP-Lefever/checkpoint4_camping"
 							>
 								<div className={style.hover}>
-									<video className={style.boarderVids} autoPlay muted loop>
-										<source src={geocode} type="video/mp4" />
+									<video className={style.glampingVids} autoPlay muted loop>
+										<source src={glamping} type="video/mp4" />
 									</video>
 								</div>
 							</a>
