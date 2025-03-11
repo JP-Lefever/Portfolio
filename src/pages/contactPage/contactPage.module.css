@@ -1,114 +1,114 @@
 .h2 {
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	font-family: var(--primary-font);
-	font-size: 7vw;
-	color: var(--text-color);
-	opacity: 10%;
-	margin-right: 0;
-	margin-top: 10vh;
-	@media screen and (max-width: 760px) {
-		display: none;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		display: none;
-	}
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--primary-font);
+  font-size: 7vw;
+  color: var(--text-color);
+  opacity: 10%;
+  margin-right: 0;
+  margin-top: 10vh;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    display: none;
+  }
 }
 .contactPage {
-	display: flex;
-	flex-direction: row-reverse;
-	@media screen and (max-width: 760px) {
-		margin-bottom: 10em;
-	}
+  display: flex;
+  flex-direction: row-reverse;
+  @media screen and (max-width: 760px) {
+    margin-bottom: 10em;
+  }
 }
 .contact {
-	margin-top: 10vh;
-	border-left: 1px solid var(--thr-color);
-	position: relative;
-	right: 18vw;
-	padding-left: 5em;
-	height: 70vh;
-	@media screen and (max-width: 760px) {
-		width: 90vw;
-		padding-left: 1em;
-		position: relative;
-		right: 0vw;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: 90vw;
-		padding-left: 1em;
-		position: relative;
-		right: 2.5vw;
-	}
-	@media screen and (min-width: 1049px) and (max-width: 1800px) {
-		position: relative;
-		right: 11vw;
-	}
+  margin-top: 10vh;
+  border-left: 1px solid var(--thr-color);
+  position: relative;
+  right: 18vw;
+  padding-left: 5em;
+  height: 70vh;
+  @media screen and (max-width: 760px) {
+    width: 90vw;
+    padding-left: 1em;
+    position: relative;
+    right: 0vw;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: 90vw;
+    padding-left: 1em;
+    position: relative;
+    right: 2.5vw;
+  }
+  @media screen and (min-width: 1049px) and (max-width: 1800px) {
+    position: relative;
+    right: 11vw;
+  }
 }
 .h3 {
-	text-align: center;
-	font-size: 3.5em;
-	font-family: var(--thr-font);
-	color: var(--thr-color);
-	margin-bottom: 0.8em;
-	margin-top: 0;
-	animation: animate 2s ease-in-out infinite;
-	text-transform: uppercase;
-	@media screen and (max-width: 760px) {
-		font-size: 2.5em;
-	}
+  text-align: center;
+  font-size: 3.5em;
+  font-family: var(--thr-font);
+  color: var(--thr-color);
+  margin-bottom: 0.8em;
+  margin-top: 0;
+  animation: animate 2s ease-in-out infinite;
+  text-transform: uppercase;
+  @media screen and (max-width: 760px) {
+    font-size: 2.5em;
+  }
 }
 .h3Info {
-	font-size: 2.5em;
-	font-family: var(--thr-font);
-	color: var(--text-color);
-	text-align: center;
-	@media screen and (max-width: 760px) {
-		font-size: 1.5em;
-	}
+  font-size: 2.5em;
+  font-family: var(--thr-font);
+  color: var(--text-color);
+  text-align: center;
+  @media screen and (max-width: 760px) {
+    font-size: 1.5em;
+  }
 }
 .h3Name {
-	font-size: 3.2em;
-	font-family: var(--primary-font);
-	color: var(--text-color);
-	text-align: center;
-	@media screen and (max-width: 760px) {
-		font-size: 1.5em;
-	}
+  font-size: 3.2em;
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  text-align: center;
+  @media screen and (max-width: 760px) {
+    font-size: 1.5em;
+  }
 }
 .anchor {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .link {
-	height: 5em;
-	@media screen and (max-width: 760px) {
-		width: 90vw;
-		padding-left: 0em;
-	}
+  height: 5em;
+  @media screen and (max-width: 760px) {
+    width: 90vw;
+    padding-left: 0em;
+  }
 }
 
 @keyframes animate {
-	20%,
-	24%,
-	55% {
-		color: white;
-		text-shadow: none;
-	}
-	0%,
-	19%,
-	23%,
-	25%,
-	54%,
-	56%,
-	100% {
-		color: var(--thr-color);
-		text-shadow:
-			0 0 2px var(--thr-color), 0 0 1px var(--thr-color), 0 0 1px var(
-				--thr-color
-			), 0 0 1px
-			var(--thr-color), 0 0 1px var(--thr-color), 0 0 15px var(--thr-color), 0 0 1px var(
-				--thr-color
-			);
-	}
+  20%,
+  24%,
+  55% {
+    color: white;
+    text-shadow: none;
+  }
+  0%,
+  19%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: var(--thr-color);
+    text-shadow:
+      0 0 2px var(--thr-color), 0 0 1px var(--thr-color), 0 0 1px var(
+        --thr-color
+      ), 0 0 1px
+      var(--thr-color), 0 0 1px var(--thr-color), 0 0 15px var(--thr-color), 0 0 1px var(
+        --thr-color
+      );
+  }
 }

@@ -1,24 +1,24 @@
 .button {
-	background-color: var(--bg-color);
-	border: none;
+  background-color: var(--bg-color);
+  border: none;
 
-	margin-left: 90vw;
-	margin-top: 1vh;
-	@media screen and (max-width: 760px) {
-		margin-left: 81vw;
-		margin-bottom: 0.5em;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		margin-left: 90vw;
-		margin-bottom: 0.5em;
-	}
+  margin-left: 90vw;
+  margin-top: 1vh;
+  @media screen and (max-width: 760px) {
+    margin-left: 81vw;
+    margin-bottom: 0.5em;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    margin-left: 90vw;
+    margin-bottom: 0.5em;
+  }
 }
 .button:hover {
-	color: var(--thr-color);
+  color: var(--thr-color);
 }
 .french {
-	width: 3.2em;
+  width: 3.2em;
 }
 .english {
-	width: 2.8em;
+  width: 2.8em;
 }

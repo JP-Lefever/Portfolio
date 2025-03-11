@@ -1,13 +1,14 @@
-import style from "./projectPage.module.css";
 import lenclos from "../../assets/images/Lenclos.png";
-import unPeuMieu from "../../assets/video/un_peu_mieu.mp4";
-import allStarGame from "../../assets/video/all_star_game.mp4";
-import { useTranslation } from "../../contexts/LangContext";
-import boarderline from "../../assets/video/Boarder_Line.mp4";
 import carotaine from "../../assets/images/carotProject.png";
 import eshop from "../../assets/images/eShop.png";
 import todo from "../../assets/images/todo.png";
+import boarderline from "../../assets/video/Boarder_Line.mp4";
+import allStarGame from "../../assets/video/all_star_game.mp4";
+import unPeuMieu from "../../assets/video/un_peu_mieu.mp4";
+import geocode from "../../assets/video/geocode.mp4";
 import { ScrollAnimation } from "../../components/scrollAnimation/ScrollAnimation";
+import { useTranslation } from "../../contexts/LangContext";
+import style from "./projectPage.module.css";
 
 export default function ProjectPage() {
 	const { translations } = useTranslation();
@@ -19,6 +20,90 @@ export default function ProjectPage() {
 					<h2 className={style.h2Project}>
 						{translations.projectPage.mes_projets}
 					</h2>
+					<ScrollAnimation>
+						<article className={style.glamping}>
+							<div className={style.presentationGlamping}>
+								<h2 className={style.titleGlamping}>
+									{translations.projectPage.titleGlamping}
+								</h2>
+								<p>{translations.projectPage.descGlamping}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[4]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[10]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[6]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[7]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[8]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[9]}
+									</p>
+								</aside>
+							</div>
+							<a
+								className={style.anchor}
+								target="_blank"
+								rel="noreferrer"
+								href="https://github.com/WildCodeSchool-2024-09/JS-RemoteFR-Vert-CrewCodeIle-GeoCode-P3/tree/dev"
+							>
+								<div className={style.hover}>
+									<video className={style.boarderVids} autoPlay muted loop>
+										<source src={geocode} type="video/mp4" />
+									</video>
+								</div>
+							</a>
+						</article>
+					</ScrollAnimation>
+					<ScrollAnimation>
+						<article className={style.geocode}>
+							<div className={style.presentationGeocode}>
+								<h2 className={style.titleGeocode}>
+									{translations.projectPage.titleGeocode}
+								</h2>
+								<p>{translations.projectPage.descGeocode}</p>
+								<aside className={style.techs}>
+									<p className={style.tech}>
+										{translations.projectPage.tech[4]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[5]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[6]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[7]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[8]}
+									</p>
+									<p className={style.tech}>
+										{translations.projectPage.tech[9]}
+									</p>
+								</aside>
+							</div>
+							<a
+								className={style.anchor}
+								target="_blank"
+								rel="noreferrer"
+								href="https://github.com/WildCodeSchool-2024-09/JS-RemoteFR-Vert-CrewCodeIle-GeoCode-P3/tree/dev"
+							>
+								<div className={style.hover}>
+									<video className={style.boarderVids} autoPlay muted loop>
+										<source src={geocode} type="video/mp4" />
+									</video>
+								</div>
+							</a>
+						</article>
+					</ScrollAnimation>
 					<ScrollAnimation>
 						<article className={style.carotaine}>
 							<div className={style.presentationCarotaine}>

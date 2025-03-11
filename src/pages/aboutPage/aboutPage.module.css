@@ -1,74 +1,74 @@
 .about {
-	width: 40vw;
-	font-family: var(--thr-font);
-	margin-top: 8vh;
-	border-left: solid 1px var(--thr-color);
-	padding-left: 5vw;
-	@media screen and (max-width: 760px) {
-		width: 85vw;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: 85vw;
-	}
+  width: 40vw;
+  font-family: var(--thr-font);
+  margin-top: 8vh;
+  border-left: solid 1px var(--thr-color);
+  padding-left: 5vw;
+  @media screen and (max-width: 760px) {
+    width: 85vw;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: 85vw;
+  }
 }
 .h2About {
-	writing-mode: vertical-rl;
-	text-orientation: mixed;
-	font-family: var(--primary-font);
-	font-size: 9vw;
-	color: var(--text-color);
-	opacity: 10%;
-	margin-right: 0;
-	margin-top: 10vh;
-	@media screen and (max-width: 760px) {
-		display: none;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		display: none;
-	}
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: var(--primary-font);
+  font-size: 9vw;
+  color: var(--text-color);
+  opacity: 10%;
+  margin-right: 0;
+  margin-top: 10vh;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    display: none;
+  }
 }
 
 .aboutPage {
-	display: flex;
-	flex-direction: row-reverse;
-	gap: 6vw;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 6vw;
 }
 .h2 {
-	font-family: var(--primary-font);
-	color: var(--text-color);
-	margin-bottom: 8vh;
-	font-size: 4em;
-	@media screen and (max-width: 760px) {
-		font-size: 2em;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		font-size: 4.5em;
-	}
-	@media screen and (min-width: 1048px) and (max-width: 1800px) {
-		font-size: 3.5em;
-	}
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  margin-bottom: 8vh;
+  font-size: 4em;
+  @media screen and (max-width: 760px) {
+    font-size: 2em;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    font-size: 4.5em;
+  }
+  @media screen and (min-width: 1048px) and (max-width: 1800px) {
+    font-size: 3.5em;
+  }
 }
 .h3 {
-	font-family: var(--primary-font);
-	color: var(--thr-color);
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		font-size: 2.5em;
-	}
+  font-family: var(--primary-font);
+  color: var(--thr-color);
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    font-size: 2.5em;
+  }
 }
 .h4 {
-	font-family: var(--thr-font);
-	color: var(--text-color);
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		font-size: 1.5em;
-	}
+  font-family: var(--thr-font);
+  color: var(--text-color);
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    font-size: 1.5em;
+  }
 }
 .text {
-	font-family: var(--thr-font);
-	color: var(--text-color);
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		font-size: 1.5em;
-	}
+  font-family: var(--thr-font);
+  color: var(--text-color);
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    font-size: 1.5em;
+  }
 }
 .catégory {
-	margin-bottom: 5vh;
+  margin-bottom: 5vh;
 }

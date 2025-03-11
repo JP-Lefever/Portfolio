@@ -1,66 +1,66 @@
 .header {
-	display: flex;
-	width: 30vw;
-	margin: auto;
-	margin-top: 6vh;
-	align-items: center;
-	border-radius: 20px;
-	justify-content: space-around;
-	position: relative;
-	@media screen and (max-width: 760px) {
-		width: 100vw;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: 100vw;
-	}
+  display: flex;
+  width: 30vw;
+  margin: auto;
+  margin-top: 6vh;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-around;
+  position: relative;
+  @media screen and (max-width: 760px) {
+    width: 100vw;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: 100vw;
+  }
 }
 
 .h2 {
-	font-family: var(--thr-font);
-	font-size: 4.2em;
-	font-weight: 200;
-	width: 30vw;
-	margin: 0;
+  font-family: var(--thr-font);
+  font-size: 4.2em;
+  font-weight: 200;
+  width: 30vw;
+  margin: 0;
 
-	padding: 0;
-	text-align: center;
-	animation: animate 2s ease-in-out infinite;
-	margin-top: 0.5em;
-	font-style: bold;
-	@media screen and (max-width: 760px) {
-		width: 100vw;
-		font-size: 2em;
-	}
-	@media screen and (min-width: 761px) and (max-width: 1048px) {
-		width: 100vw;
-		font-size: 4em;
-	}
-	@media screen and (min-width: 1049px) and (max-width: 1900px) {
-		font-size: 3em;
-	}
+  padding: 0;
+  text-align: center;
+  animation: animate 2s ease-in-out infinite;
+  margin-top: 0.5em;
+  font-style: bold;
+  @media screen and (max-width: 760px) {
+    width: 100vw;
+    font-size: 2em;
+  }
+  @media screen and (min-width: 761px) and (max-width: 1048px) {
+    width: 100vw;
+    font-size: 4em;
+  }
+  @media screen and (min-width: 1049px) and (max-width: 1900px) {
+    font-size: 3em;
+  }
 }
 
 @keyframes animate {
-	20%,
-	24%,
-	55% {
-		color: white;
-		text-shadow: none;
-	}
-	0%,
-	19%,
-	23%,
-	25%,
-	54%,
-	56%,
-	100% {
-		color: var(--thr-color);
-		text-shadow:
-			0 0 2px var(--thr-color), 0 0 1px var(--thr-color), 0 0 1px var(
-				--thr-color
-			), 0 0 1px
-			var(--thr-color), 0 0 1px var(--thr-color), 0 0 15px var(--thr-color), 0 0 1px var(
-				--thr-color
-			);
-	}
+  20%,
+  24%,
+  55% {
+    color: white;
+    text-shadow: none;
+  }
+  0%,
+  19%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: var(--thr-color);
+    text-shadow:
+      0 0 2px var(--thr-color), 0 0 1px var(--thr-color), 0 0 1px var(
+        --thr-color
+      ), 0 0 1px
+      var(--thr-color), 0 0 1px var(--thr-color), 0 0 15px var(--thr-color), 0 0 1px var(
+        --thr-color
+      );
+  }
 }
